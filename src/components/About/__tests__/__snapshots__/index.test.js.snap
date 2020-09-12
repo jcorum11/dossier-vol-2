@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h1
+      data-testid="about"
+    >
+      About
+    </h1>
+    <img
+      alt="Jake's beautiful face"
+    />
+  </section>
+</DocumentFragment>
+`;
