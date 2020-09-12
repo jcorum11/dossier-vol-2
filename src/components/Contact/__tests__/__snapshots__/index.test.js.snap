@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact component matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h1
+      data-testid="contact"
+    >
+      Contact Me
+    </h1>
+    <form
+      id="contact-form"
+    >
+      <div>
+        <label
+          for="name"
+        />
+        <input
+          name="name"
+          type="text"
+        />
+      </div>
+      <div>
+        <label
+          for="email"
+        />
+        <input
+          name="email"
+          type="email"
+        />
+      </div>
+      <div>
+        <label
+          for="email"
+        />
+        <input
+          name="email"
+          type="text"
+        />
+      </div>
+    </form>
+  </section>
+</DocumentFragment>
+`;
