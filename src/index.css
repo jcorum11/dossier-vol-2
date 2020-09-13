@@ -79,6 +79,10 @@ body {
   margin-bottom: 5vh;
 }
 
+#contact-form {
+  padding: 0 2vh 5vh 2vh;
+}
+
 /*utilities*/
 .bg-blue {
   background-color: var(--oxford-blue) !important;

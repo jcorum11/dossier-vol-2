@@ -1,6 +1,7 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
+  const { selected, setSelected } = props;
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-blue">
       <a className="pt-yellow navbar-brand shadow-green" href="/">
@@ -20,25 +21,43 @@ function Nav() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link pt-yellow shadow-green" href="#about" data-testid="about">
+            <a
+              className="nav-link pt-yellow shadow-green"
+              href="#about"
+              data-testid="about"
+              onClick={() => setSelected("about")}
+            >
               About Me
-              <span className="sr-only">
-                (current)
-              </span>
+              <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link pt-yellow shadow-green" href="#projects" data-testid="projects">
+            <a
+              className="nav-link pt-yellow shadow-green"
+              href="#projects"
+              data-testid="projects"
+              onClick={() => setSelected("projects")}
+            >
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link pt-yellow shadow-green" href="#resume" data-testid="resume">
+            <a
+              className="nav-link pt-yellow shadow-green"
+              href="#resume"
+              data-testid="resume"
+              onClick={() => setSelected("resume")}
+            >
               Resume
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link pt-yellow shadow-green" href="#contact" data-testid="contact">
+            <a
+              className="nav-link pt-yellow shadow-green"
+              href="#contact"
+              data-testid="contact"
+              onClick={() => setSelected("contact")}
+            >
               Contact Me
             </a>
           </li>

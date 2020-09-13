@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Hero from "./components/Jumbotron";
 import About from "./components/About";
@@ -9,17 +9,30 @@ import Resume from "./components/Resume";
 import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
-  return (
-    <div>
-      <Nav />
-      <main className="bg-blue pt-yellow">
+  const [selected, setSelected] = useState("about");
+  let component;
+  if (selected === "about") {
+    component = (
+      <>
         <Hero />
         <About />
-        <Projects />
-        <Resume />
-        <Contact />
+      </>
+    );
+  } else if (selected === "projects") {
+    component = <Projects />;
+  } else if (selected === "resume") {
+    component = <Resume />;
+  } else {
+    component = <Contact />;
+  }
+
+  return (
+    <>
+      <Nav selected={selected} setSelected={setSelected}/>
+      <main className="bg-blue pt-yellow">
+        {component}
       </main>
-    </div>
+    </>
   );
 }
 
