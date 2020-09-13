@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects component matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h1
+      data-testid="project-title"
+    >
+      Projects
+    </h1>
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm"
+          id="proj-pic-1"
+        />
+        <div
+          class="col-sm"
+          id="proj-pic-2"
+        />
+        <div
+          class="col-sm"
+          id="proj-pic-3"
+        />
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm"
+          id="proj-pic-4"
+        />
+        <div
+          class="col-sm"
+          id="proj-pic-5"
+        />
+        <div
+          class="col-sm"
+          id="proj-pic-6"
+        />
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

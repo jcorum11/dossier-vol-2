@@ -27,12 +27,12 @@ describe("links have correct text", () => {
     expect(getByTestId("projects")).toHaveTextContent("Projects");
   });
 
-  it("has correct text in projects link", () => {
+  it("has correct text in resume link", () => {
     const { getByTestId } = render(<Nav />);
     expect(getByTestId("resume")).toHaveTextContent("Resume");
   });
 
-  it("has correct text in projects link", () => {
+  it("has correct text in contact link", () => {
     const { getByTestId } = render(<Nav />);
     expect(getByTestId("contact")).toHaveTextContent("Contact Me");
   });

@@ -1,10 +1,9 @@
 :root {
   --oxford-blue: #081540;
   --june-bud-green: #bfd568;
-  --straw-yellow: #E9D967;
-  --china-rose: #9C4C63;
-  --razzmic-berry-purple: #8A4F7D;
-
+  --straw-yellow: #e9d967;
+  --china-rose: #9c4c63;
+  --razzmic-berry-purple: #8a4f7d;
 }
 
 * {
@@ -16,22 +15,98 @@ body {
   min-height: 100%;
 }
 
+#hero-main {
+  background-image: url("../src/assets/images/IMG_0379.jpg");
+  background-size: cover;
+  height: 30em;
+  background-position: center 30%;
+}
+
+/*images for profile*/
+#proj-pic-1 {
+  background-image: url("../src/assets/images/d&dTracker.png");
+  background-size: cover;
+  height: 40vh;
+  background-position: center;
+  margin-bottom: 5vh;
+}
+
+#proj-pic-2 {
+  background-image: url("../src/assets/images/swap-squad.png");
+  background-size: cover;
+  height: 40vh;
+  background-position: center;
+  margin-bottom: 5vh;
+}
+
+#proj-pic-3 {
+  background-image: url("../src/assets/images/run-buddy.png");
+  background-size: cover;
+  height: 40vh;
+  background-position: center;
+  margin-bottom: 5vh;
+}
+
+#proj-pic-4 {
+  background-image: url("../src/assets/images/README-zing.png");
+  background-size: cover;
+  height: 40vh;
+  background-position: center;
+  margin-bottom: 5vh;
+}
+
+#proj-pic-5 {
+  background-image: url("../src/assets/images/test-rabbit.png");
+  background-size: cover;
+  height: 40vh;
+  background-position: center;
+  margin-bottom: 5vh;
+}
+
+#proj-pic-6 {
+  background-image: url("../src/assets/images/storm-ly.png");
+  background-size: cover;
+  height: 40vh;
+  background-position: center;
+  margin-bottom: 5vh;
+}
+
+#resume-img {
+  background-image: url("../src/assets/images/resume.png");
+  background-size: cover;
+  background-position: left;
+  height: 80vh;
+  margin-bottom: 5vh;
+}
+
+/*utilities*/
 .bg-blue {
-  background-color: var(--oxford-blue);
+  background-color: var(--oxford-blue) !important;
 }
 
 .box-bg-red {
-  background-color: var(--china-rose)
+  background-color: var(--china-rose) !important;
 }
 
 .border-green {
-  border: var(--june-bud-green)
+  border: 3vh ridge var(--june-bud-green) !important;
 }
 
 .pt-yellow {
-  color: var(--straw-yellow)
+  color: var(--straw-yellow) !important;
 }
 
 .st-purple {
-  color: var(--razzmic-berry-purple)
+  color: var(--razzmic-berry-purple) !important;
+}
+
+.shadow-green {
+  text-shadow: 0 0 15vh var(--june-bud-green), 0 0 10vh var(--june-bud-green),
+    0 0 5vh var(--june-bud-green);
+}
+
+.box-shadow-purple {
+  box-shadow: inset 0 0 15vh var(--razzmic-berry-purple),
+    inset 0 0 10vh var(--razzmic-berry-purple),
+    inset 0 0 5vh var(--razzmic-berry-purple);
 }

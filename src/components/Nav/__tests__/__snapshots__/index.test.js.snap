@@ -3,10 +3,10 @@
 exports[`Nav component matches snapshot 1`] = `
 <DocumentFragment>
   <nav
-    class="navbar navbar-expand-lg navbar-light bg-light"
+    class="navbar navbar-expand-lg navbar-light bg-blue"
   >
     <a
-      class="navbar-brand"
+      class="pt-yellow navbar-brand shadow-green"
       href="/"
     >
       Jacob Corum
@@ -35,7 +35,7 @@ exports[`Nav component matches snapshot 1`] = `
           class="nav-item active"
         >
           <a
-            class="nav-link"
+            class="nav-link pt-yellow shadow-green"
             data-testid="about"
             href="#about"
           >
@@ -51,7 +51,7 @@ exports[`Nav component matches snapshot 1`] = `
           class="nav-item"
         >
           <a
-            class="nav-link"
+            class="nav-link pt-yellow shadow-green"
             data-testid="projects"
             href="#projects"
           >
@@ -62,7 +62,7 @@ exports[`Nav component matches snapshot 1`] = `
           class="nav-item"
         >
           <a
-            class="nav-link"
+            class="nav-link pt-yellow shadow-green"
             data-testid="resume"
             href="#resume"
           >
@@ -73,7 +73,7 @@ exports[`Nav component matches snapshot 1`] = `
           class="nav-item"
         >
           <a
-            class="nav-link"
+            class="nav-link pt-yellow shadow-green"
             data-testid="contact"
             href="#contact"
           >
