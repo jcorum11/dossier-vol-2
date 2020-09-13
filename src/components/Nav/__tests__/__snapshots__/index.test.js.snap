@@ -2,43 +2,78 @@
 
 exports[`Nav component matches snapshot 1`] = `
 <DocumentFragment>
-  <header>
-    <h2>
-      <a
-        data-testid="link"
-        href="/"
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <a
+      class="navbar-brand"
+      href="/"
+    >
+      Jacob Corum
+    </a>
+    <button
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      class="navbar-toggler"
+      data-target="#navbarNav"
+      data-toggle="collapse"
+      type="button"
+    >
+      <span
+        class="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      class="collapse navbar-collapse"
+      id="navbarNav"
+    >
+      <ul
+        class="navbar-nav"
       >
-        Jake Corum
-      </a>
-    </h2>
-    <nav>
-      <ul>
-        <li>
+        <li
+          class="nav-item active"
+        >
           <a
+            class="nav-link"
             data-testid="about"
             href="#about"
           >
             About Me
+            <span
+              class="sr-only"
+            >
+              (current)
+            </span>
           </a>
         </li>
-        <li>
+        <li
+          class="nav-item"
+        >
           <a
+            class="nav-link"
             data-testid="projects"
             href="#projects"
           >
             Projects
           </a>
         </li>
-        <li>
+        <li
+          class="nav-item"
+        >
           <a
+            class="nav-link"
             data-testid="resume"
             href="#resume"
           >
             Resume
           </a>
         </li>
-        <li>
+        <li
+          class="nav-item"
+        >
           <a
+            class="nav-link"
             data-testid="contact"
             href="#contact"
           >
@@ -46,7 +81,7 @@ exports[`Nav component matches snapshot 1`] = `
           </a>
         </li>
       </ul>
-    </nav>
-  </header>
+    </div>
+  </nav>
 </DocumentFragment>
 `;
