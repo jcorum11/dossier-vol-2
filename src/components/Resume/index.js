@@ -2,10 +2,10 @@ import React from "react";
 
 function Resume() {
   return (
-    <section>
-      <h2 data-testid="resume-title">Resume</h2>
-      <a href="../../src/assets/images/resumeApr2020.pdf" alt="Jake's resume">
-        <div id="resume-img"></div>
+    <section className="container">
+      <h2 data-testid="resume-title" className="display-1 text-center">Resume</h2>
+      <a href={require("../../assets/images/resumeApr2020.pdf")} alt="Jake's resume" className="wrapper">
+        <div id="resume-img" className="rounded"></div>
       </a>
     </section>
   );

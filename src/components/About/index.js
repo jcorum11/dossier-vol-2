@@ -4,7 +4,9 @@ function About() {
   return (
     <section>
       <div className="container border-green box-bg-red box-shadow-purple box-shadow-yellow">
-        <h1 data-testid="about">About</h1>
+        <h1 data-testid="about" className="display-1 text-center">
+          About
+        </h1>
         <p>
           My greatest talent is learning. Learning how to program in R by
           querying the web to solve technical problems, I manipulated big data

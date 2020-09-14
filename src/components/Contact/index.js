@@ -2,8 +2,8 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <section id="contact-form">
-      <h1 data-testid="contact">Contact Me</h1>
+    <section id="contact-form" className="container">
+      <h1 data-testid="contact" className="display-1 text-center">Contact Me</h1>
       <form>
         <div className="form-group">
           <label htmlFor="exampleInputEmail1">Email address</label>

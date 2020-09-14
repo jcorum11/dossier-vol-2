@@ -22,65 +22,112 @@ body {
   background-position: center 30%;
 }
 
+.parent {
+  width: 45%;
+  margin: 20px;
+  height: 40vh;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+span {
+  display: none;
+  font-size: 35px;
+  color: #ffffff !important;
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  cursor: pointer;
+  /*text-decoration: none;*/
+}
+
+.parent:hover .child,
+.parent:focus .child {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.parent:hover .child:before,
+.parent:focus .child:before {
+  display: block;
+}
+
+.parent:hover span,
+.parent:focus span {
+  display: block;
+}
+
+.child:before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(156, 76, 99, 0.75);
+}
+
 /*images for profile*/
 #proj-pic-1 {
   background-image: url("../src/assets/images/d&dTracker.png");
-  background-size: cover;
-  height: 40vh;
-  background-position: center;
-  margin-bottom: 5vh;
 }
 
 #proj-pic-2 {
   background-image: url("../src/assets/images/swap-squad.png");
-  background-size: cover;
-  height: 40vh;
-  background-position: center;
-  margin-bottom: 5vh;
 }
 
 #proj-pic-3 {
   background-image: url("../src/assets/images/run-buddy.png");
-  background-size: cover;
-  height: 40vh;
-  background-position: center;
-  margin-bottom: 5vh;
 }
 
 #proj-pic-4 {
   background-image: url("../src/assets/images/README-zing.png");
-  background-size: cover;
-  height: 40vh;
-  background-position: center;
-  margin-bottom: 5vh;
 }
 
 #proj-pic-5 {
   background-image: url("../src/assets/images/test-rabbit.png");
-  background-size: cover;
-  height: 40vh;
-  background-position: center;
-  margin-bottom: 5vh;
 }
 
 #proj-pic-6 {
   background-image: url("../src/assets/images/storm-ly.png");
-  background-size: cover;
-  height: 40vh;
-  background-position: center;
-  margin-bottom: 5vh;
 }
 
 #resume-img {
   background-image: url("../src/assets/images/resume.png");
   background-size: cover;
   background-position: left;
-  height: 80vh;
-  margin-bottom: 5vh;
+  margin: auto;
+  height: 50vw;
+  width: 50vw;
 }
 
 #contact-form {
   padding: 0 2vh 5vh 2vh;
+  height: 100vh;
 }
 
 /*utilities*/
