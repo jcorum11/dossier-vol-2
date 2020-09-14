@@ -6,6 +6,12 @@ import Contact from "./components/Contact";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import {
+  FaGithubSquare,
+  FaFacebookSquare,
+  FaStackOverflow,
+} from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 function App() {
   const [selected, setSelected] = useState("about");
@@ -27,10 +33,25 @@ function App() {
 
   return (
     <>
-      <Nav selected={selected} setSelected={setSelected}/>
-      <main className="bg-blue pt-yellow">
-        {component}
-      </main>
+      <Nav selected={selected} setSelected={setSelected} />
+      <main className="bg-blue pt-yellow">{component}</main>
+      <footer>
+        <IconContext.Provider
+          value={{ className: "icon-red", size: 100 }}
+        >
+          <div className="wrapper">
+            <a href="https://github.com/jcorum11">
+            <FaGithubSquare />
+            </a>
+            <a href="https://www.facebook.com/JacobCorumSteadyJingo">
+            <FaFacebookSquare />
+            </a>
+            <a href="https://stackoverflow.com/users/10397316/jacob-corum">
+            <FaStackOverflow />
+            </a>
+          </div>
+        </IconContext.Provider>
+      </footer>
     </>
   );
 }

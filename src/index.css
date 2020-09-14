@@ -13,6 +13,29 @@
 html,
 body {
   min-height: 100%;
+  background-color: var(--oxford-blue);
+}
+
+footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-toggler-icon {
+  background-color: var(--june-bud-green) !important;
+  position: relative;
+}
+
+.wrapper {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navActive {
+  background-color: var(--razzmic-berry-purple);
+  box-shadow: inset 0 0 2vh var(--june-bud-green);
 }
 
 #hero-main {
@@ -23,9 +46,9 @@ body {
 }
 
 .parent {
-  width: 45%;
-  margin: 20px;
-  height: 40vh;
+  width: 45rem;
+  margin: 1rem;
+  height: 20rem;
   overflow: hidden;
   position: relative;
   float: left;
@@ -38,10 +61,10 @@ body {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 span {
@@ -127,7 +150,7 @@ span {
 
 #contact-form {
   padding: 0 2vh 5vh 2vh;
-  height: 100vh;
+  height: 50rem;
 }
 
 /*utilities*/
@@ -137,6 +160,10 @@ span {
 
 .box-bg-red {
   background-color: var(--china-rose) !important;
+}
+
+.icon-red {
+  fill: var(--china-rose) !important;
 }
 
 .border-green {
