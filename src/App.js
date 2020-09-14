@@ -6,7 +6,6 @@ import Contact from "./components/Contact";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
-import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
   const [selected, setSelected] = useState("about");

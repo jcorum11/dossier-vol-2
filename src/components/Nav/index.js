@@ -3,7 +3,7 @@ import React from "react";
 function Nav(props) {
   const { selected, setSelected } = props;
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-blue">
+    <nav className="navbar navbar-expand-sm navbar-light bg-blue">
       <a className="pt-yellow navbar-brand shadow-green" href="/">
         Jacob Corum
       </a>
