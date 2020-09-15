@@ -4,7 +4,7 @@ function Nav(props) {
   const { selected, setSelected } = props;
   return (
     <nav className="navbar navbar-expand-sm navbar-light">
-      <a className="pt-yellow navbar-brand shadow-green" href="/">
+      <a className="pt-yellow navbar-brand shadow-green" href="https://jcorum11.github.io/dossier-vol-2/#about">
         Jacob Corum
       </a>
       <button
