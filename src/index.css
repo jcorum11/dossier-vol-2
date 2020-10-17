@@ -142,6 +142,10 @@ span {
   background-image: url("../src/assets/images/storm-ly.png");
 }
 
+#proj-pic-rolodeck {
+  background-image: url("../src/assets/images/rolodeck.png");
+}
+
 #resume-img {
   background-image: url("../src/assets/images/resume.png");
   background-size: cover;
