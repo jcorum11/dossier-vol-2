@@ -16,10 +16,11 @@
   Do a Git Clone.
 
   ## Usage
-  Look, and be amazed.
+  Look, and be amazed. Also visit [the portfolio webpage](https://jcorum11.github.io/dossier-vol-2/)
 
   ## License
   [MIT License](https://choosealicense.com/licenses/mit/)
+  
   ### Description
   >A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
