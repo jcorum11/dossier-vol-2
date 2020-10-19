@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b5e4d606871a466001efc4ded2ab8a6",
+    "revision": "9f54a3b0266bba7cb0df2c6660a36779",
     "url": "/dossier-vol-2/index.html"
   },
   {
-    "revision": "92f9f127adb2cd2b8c12",
-    "url": "/dossier-vol-2/static/css/main.4c377b6f.chunk.css"
+    "revision": "c748cdbd18e70ad77a88",
+    "url": "/dossier-vol-2/static/css/main.ce85e783.chunk.css"
   },
   {
     "revision": "9750fc62812d9d94641f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dossier-vol-2/static/js/2.6ac6be55.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "92f9f127adb2cd2b8c12",
-    "url": "/dossier-vol-2/static/js/main.41273f30.chunk.js"
+    "revision": "c748cdbd18e70ad77a88",
+    "url": "/dossier-vol-2/static/js/main.cce9e658.chunk.js"
   },
   {
     "revision": "e4399a415a04850b6d95",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce1bb0a9c41db2a6485fe7cec3dda3e1",
     "url": "/dossier-vol-2/static/media/resumeApr2020.ce1bb0a9.pdf"
+  },
+  {
+    "revision": "984c98d58ac034db4a4c9684abbfdec9",
+    "url": "/dossier-vol-2/static/media/rolodeck.984c98d5.png"
   },
   {
     "revision": "0fd3ed29e53735a44224715504d31a36",

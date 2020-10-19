@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dossier-vol-2/static/css/main.4c377b6f.chunk.css",
-    "main.js": "/dossier-vol-2/static/js/main.41273f30.chunk.js",
-    "main.js.map": "/dossier-vol-2/static/js/main.41273f30.chunk.js.map",
+    "main.css": "/dossier-vol-2/static/css/main.ce85e783.chunk.css",
+    "main.js": "/dossier-vol-2/static/js/main.cce9e658.chunk.js",
+    "main.js.map": "/dossier-vol-2/static/js/main.cce9e658.chunk.js.map",
     "runtime-main.js": "/dossier-vol-2/static/js/runtime-main.e137d3f9.js",
     "runtime-main.js.map": "/dossier-vol-2/static/js/runtime-main.e137d3f9.js.map",
     "static/js/2.6ac6be55.chunk.js": "/dossier-vol-2/static/js/2.6ac6be55.chunk.js",
     "static/js/2.6ac6be55.chunk.js.map": "/dossier-vol-2/static/js/2.6ac6be55.chunk.js.map",
     "index.html": "/dossier-vol-2/index.html",
-    "precache-manifest.dbe0f73d2fdf7ab02d2c131ee3897525.js": "/dossier-vol-2/precache-manifest.dbe0f73d2fdf7ab02d2c131ee3897525.js",
+    "precache-manifest.2067de417ad3026d5b6bacf1c9d3eb72.js": "/dossier-vol-2/precache-manifest.2067de417ad3026d5b6bacf1c9d3eb72.js",
     "service-worker.js": "/dossier-vol-2/service-worker.js",
-    "static/css/main.4c377b6f.chunk.css.map": "/dossier-vol-2/static/css/main.4c377b6f.chunk.css.map",
+    "static/css/main.ce85e783.chunk.css.map": "/dossier-vol-2/static/css/main.ce85e783.chunk.css.map",
     "static/js/2.6ac6be55.chunk.js.LICENSE.txt": "/dossier-vol-2/static/js/2.6ac6be55.chunk.js.LICENSE.txt",
     "static/media/index.css": "/dossier-vol-2/static/media/test-rabbit.391f7c1d.png",
     "static/media/resumeApr2020.pdf": "/dossier-vol-2/static/media/resumeApr2020.ce1bb0a9.pdf"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.e137d3f9.js",
     "static/js/2.6ac6be55.chunk.js",
-    "static/css/main.4c377b6f.chunk.css",
-    "static/js/main.41273f30.chunk.js"
+    "static/css/main.ce85e783.chunk.css",
+    "static/js/main.cce9e658.chunk.js"
   ]
 }
