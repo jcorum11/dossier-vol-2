@@ -34,9 +34,9 @@ function App() {
   return (
     <>
       <Nav selected={selected} setSelected={setSelected} />
-      <main className="bg-blue pt-yellow">{component}</main>
+      <main className="pt-yellow">{component}</main>
       <footer>
-        <IconContext.Provider
+        {/* <IconContext.Provider
           value={{ className: "icon-red", size: 100 }}
         >
           <div className="wrapper">
@@ -50,7 +50,10 @@ function App() {
             <FaStackOverflow />
             </a>
           </div>
-        </IconContext.Provider>
+        </IconContext.Provider> */}
+        <h5>
+          Developed by Jake <span role="img" aria-label="peace sign">✌</span>
+        </h5>
       </footer>
     </>
   );

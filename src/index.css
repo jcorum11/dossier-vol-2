@@ -13,13 +13,21 @@
 html,
 body {
   min-height: 100%;
-  background-color: var(--oxford-blue);
+  background-color: black;
+}
+
+label {
+  background-color: black;
 }
 
 footer {
   padding: 1rem;
   display: flex;
   justify-content: space-around;
+}
+
+footer h5 {
+  color: white;
 }
 
 .navbar-toggler-icon {
@@ -36,9 +44,37 @@ footer .wrapper {
   width: 30%;
 }
 
+#about {
+  background-image: url("../src/assets/images/tom-barrett-2t60-JYQ5pk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#projects {
+  background-image: url("../src/assets/images/ray-fragapane-PkKIVq1CUuY-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#resume {
+  background-image: url("../src/assets/images/pipe-a-WQTwsgq_mxg-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#contact-form {
+  background-image: url("../src/assets/images/jc-gellidon-TiynDEOiwRc-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#resume span {
+  background-color: black;
+}
+
 .navActive {
-  background-color: var(--razzmic-berry-purple);
-  box-shadow: inset 0 0 2vh var(--june-bud-green);
+  background-color: rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 0 2vh #7e999c;
 }
 
 #hero-main {
@@ -46,6 +82,7 @@ footer .wrapper {
   background-size: cover;
   height: 30em;
   background-position: center 30%;
+  filter: grayscale(100%)
 }
 
 .parent {
@@ -70,7 +107,7 @@ footer .wrapper {
   transition: all 0.5s;
 }
 
-span {
+div > span {
   display: none;
   font-size: 35px;
   color: #ffffff !important;
@@ -87,6 +124,10 @@ span {
   /*text-decoration: none;*/
 }
 
+p > span {
+  display: block;
+}
+
 .parent:hover .child,
 .parent:focus .child {
   -ms-transform: scale(1.2);
@@ -99,6 +140,7 @@ span {
 .parent:hover .child:before,
 .parent:focus .child:before {
   display: block;
+  border: #7e999c 1rem;
 }
 
 .parent:hover span,
@@ -114,7 +156,16 @@ span {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(156, 76, 99, 0.75);
+  background-color: rgba(126, 153, 156, 0.75);
+}
+
+.child {
+  filter: grayscale(75%);
+}
+
+.btn {
+  background-color: #7e999c;
+  color: white;
 }
 
 /*images for profile*/
@@ -147,7 +198,7 @@ span {
 }
 
 #resume-img {
-  background-image: url("../src/assets/images/resume.png");
+  background-image: url("../src/assets/images/jacob-corum-resume-oct-2020.png");
   background-size: cover;
   background-position: left;
   margin: auto;
@@ -166,7 +217,7 @@ span {
 }
 
 .box-bg-red {
-  background-color: var(--china-rose) !important;
+  background-color: rgba(0, 0, 0, 0.075) !important;
 }
 
 .icon-red {
@@ -174,11 +225,11 @@ span {
 }
 
 .border-green {
-  border: 3vh ridge var(--june-bud-green) !important;
+  border: 3vh ridge #7e999c !important;
 }
 
 .pt-yellow {
-  color: var(--straw-yellow) !important;
+  color: #f8f9fa !important;
 }
 
 .st-purple {
@@ -186,12 +237,10 @@ span {
 }
 
 .shadow-green {
-  text-shadow: 0 0 15vh var(--june-bud-green), 0 0 10vh var(--june-bud-green),
-    0 0 5vh var(--june-bud-green);
+  text-shadow: 0 0 15vh #7e999c, 0 0 10vh #7e999c, 0 0 5vh #7e999c;
 }
 
 .box-shadow-purple {
-  box-shadow: inset 0 0 15vh var(--razzmic-berry-purple),
-    inset 0 0 10vh var(--razzmic-berry-purple),
-    inset 0 0 5vh var(--razzmic-berry-purple);
+  box-shadow: inset 0 0 15vh #7e999c, inset 0 0 10vh #7e999c,
+    inset 0 0 5vh #7e999c;
 }

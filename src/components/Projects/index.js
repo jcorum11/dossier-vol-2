@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <section>
+    <section id="projects" className="py-5">
       <h1 data-testid="project-title" className="display-1 text-center">
         Projects
       </h1>
