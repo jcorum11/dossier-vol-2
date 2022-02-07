@@ -5,7 +5,7 @@ import About from "..";
 
 afterEach(cleanup);
 
-describe("About component", () => {
+describe("About", () => {
   it("renders", () => {
     render(<About />);
   });
@@ -14,11 +14,9 @@ describe("About component", () => {
     const { asFragment } = render(<About />);
     expect(asFragment()).toMatchSnapshot();
   });
-});
-
-describe("link is correct", () => {
+  
   it("inserts text into link", () => {
     const { getByTestId } = render(<About />);
-    expect(getByTestId("about")).toHaveTextContent("About");
+    expect(getByTestId("about")).toHaveTextContent("About Me");
   });
 });

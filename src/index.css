@@ -4,6 +4,7 @@
   --straw-yellow: #e9d967;
   --china-rose: #9c4c63;
   --razzmic-berry-purple: #8a4f7d;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -26,9 +27,9 @@ footer {
   justify-content: space-around;
 }
 
-footer h5 {
+/* footer h5 {
   color: white;
-}
+} */
 
 .navbar-toggler-icon {
   background-color: var(--june-bud-green) !important;
@@ -75,14 +76,6 @@ footer .wrapper {
 .navActive {
   background-color: rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 0 2vh #7e999c;
-}
-
-#hero-main {
-  background-image: url("../src/assets/images/IMG_0379.jpg");
-  background-size: cover;
-  height: 30em;
-  background-position: center 30%;
-  filter: grayscale(100%)
 }
 
 .parent {
@@ -163,10 +156,10 @@ p > span {
   filter: grayscale(75%);
 }
 
-.btn {
+/* .btn {
   background-color: #7e999c;
   color: white;
-}
+} */
 
 /*images for profile*/
 #proj-pic-1 {
@@ -228,9 +221,9 @@ p > span {
   border: 3vh ridge #7e999c !important;
 }
 
-.pt-yellow {
+/* .pt-yellow {
   color: #f8f9fa !important;
-}
+} */
 
 .st-purple {
   color: var(--razzmic-berry-purple) !important;

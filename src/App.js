@@ -1,62 +1,39 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
-import Hero from "./components/Jumbotron";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
-import Projects from "./components/Projects";
-import Resume from "./components/Resume";
-import {
-  FaGithubSquare,
-  FaFacebookSquare,
-  FaStackOverflow,
-} from "react-icons/fa";
-import { IconContext } from "react-icons";
+import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
+import { useSelector } from 'react-redux'
+import { selectSelectedTab } from './store/navigationSlice'
+import styled from 'styled-components';
 
 function App() {
-  const [selected, setSelected] = useState("about");
-  let component;
-  if (selected === "about") {
-    component = (
-      <>
-        <Hero />
-        <About />
-      </>
-    );
-  } else if (selected === "projects") {
-    component = <Projects />;
-  } else if (selected === "resume") {
-    component = <Resume />;
-  } else {
-    component = <Contact />;
-  }
-
+  const selectedTab = useSelector(selectSelectedTab)
   return (
-    <>
-      <Nav selected={selected} setSelected={setSelected} />
-      <main className="pt-yellow">{component}</main>
+    <Container>
+      <Nav />
+      <main className="pt-yellow">
+        {selectedTab === 'about' && <About />}
+        {selectedTab === 'projects' && <Projects />}
+        {selectedTab === 'resume' && <Resume />}
+        {selectedTab === 'contact' && <Contact />}
+      </main>
       <footer>
-        {/* <IconContext.Provider
-          value={{ className: "icon-red", size: 100 }}
-        >
-          <div className="wrapper">
-            <a href="https://github.com/jcorum11">
-            <FaGithubSquare />
-            </a>
-            <a href="https://www.facebook.com/JacobCorumSteadyJingo">
-            <FaFacebookSquare />
-            </a>
-            <a href="https://stackoverflow.com/users/10397316/jacob-corum">
-            <FaStackOverflow />
-            </a>
-          </div>
-        </IconContext.Provider> */}
-        <h5>
-          Developed by Jake <span role="img" aria-label="peace sign">✌</span>
-        </h5>
+        <FooterContent>Developed by Jake <span role="img" aria-label="peace sign">✌</span></FooterContent>
       </footer>
-    </>
+    </Container>
   );
 }
+
+const Container = styled.div`
+min-height: 100vh;
+`
+
+const FooterContent = styled.h5`
+color: darkcyan;
+margin: 0;
+`
 
 export default App;
