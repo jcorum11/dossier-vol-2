@@ -14,9 +14,4 @@ describe("About", () => {
     const { asFragment } = render(<About />);
     expect(asFragment()).toMatchSnapshot();
   });
-  
-  it("inserts text into link", () => {
-    const { getByTestId } = render(<About />);
-    expect(getByTestId("about")).toHaveTextContent("About Me");
-  });
 });

@@ -2,8 +2,12 @@
 
 exports[`Projects component matches snapshot 1`] = `
 <DocumentFragment>
-  <section>
+  <section
+    class="py-5"
+    id="projects"
+  >
     <h1
+      class="display-1 text-center"
       data-testid="project-title"
     >
       Projects
@@ -14,34 +18,88 @@ exports[`Projects component matches snapshot 1`] = `
       <div
         class="row"
       >
-        <div
-          class="col-sm"
-          id="proj-pic-1"
-        />
-        <div
-          class="col-sm"
-          id="proj-pic-2"
-        />
-        <div
-          class="col-sm"
-          id="proj-pic-3"
-        />
+        <a
+          class="col-sm rounded parent"
+          href="https://johnnielsen1221.github.io/dd-initiative-tracker/"
+        >
+          <div
+            class="rounded child"
+            id="proj-pic-1"
+          >
+            <span>
+              D&D Initiative Tracker
+            </span>
+          </div>
+        </a>
+        <a
+          class="col-sm rounded parent"
+          href="https://obscure-reef-91673.herokuapp.com/"
+        >
+          <div
+            class="rounded child"
+            id="proj-pic-2"
+          >
+            <span>
+              Swap-Squad
+            </span>
+          </div>
+        </a>
+        <a
+          class="col-sm rounded parent"
+          href="https://rolodeck.herokuapp.com/"
+        >
+          <div
+            class="rounded child"
+            id="proj-pic-rolodeck"
+          >
+            <span>
+              RoloDeck
+            </span>
+          </div>
+        </a>
       </div>
       <div
         class="row"
       >
-        <div
-          class="col-sm"
-          id="proj-pic-4"
-        />
-        <div
-          class="col-sm"
-          id="proj-pic-5"
-        />
-        <div
-          class="col-sm"
-          id="proj-pic-6"
-        />
+        <a
+          class="col-sm rounded parent"
+          href="https://jcorum11.github.io/run-buddy/"
+        >
+          <div
+            class="rounded child"
+            id="proj-pic-3"
+          >
+            <span>
+              Run Buddy
+            </span>
+          </div>
+        </a>
+        <a
+          class="col-sm rounded parent"
+          href="https://github.com/jcorum11/README.zing"
+        >
+          <div
+            class="rounded child"
+            id="proj-pic-4"
+          >
+            <span>
+              README.zing
+            </span>
+          </div>
+        </a>
+        <a
+          class="col-sm rounded parent"
+          href="https://jcorum11.github.io/test-rabbit/"
+        >
+          <div
+            class="rounded child"
+            id="proj-pic-5"
+          >
+            <span>
+              Test Rabbit
+            </span>
+          </div>
+        </a>
       </div>
     </div>
   </section>

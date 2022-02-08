@@ -1,26 +1,45 @@
 import styled from 'styled-components'
-import image from './IMG_0379.jpg'
+import backgroundImage from './solen-feyissa-rK2bkFf6KJ8-unsplash.jpg'
+import nameImage from './Untitled_Artwork.png'
 
-function Hero() {
+function Jumbotron() {
   return (
     <Container>
-      <Jumbotron></Jumbotron>
+      <Hero><Name></Name></Hero>
     </Container>
   )
 }
 
-const Jumbotron = styled.div`
-background-image: url(${image});
-background-size: cover;
-height: 50vh;
-background-position: center 30%;
-border-radius: 1rem;
-margin: 0 0 3rem 0;
-box-shadow: 5px 5px 3px black;
+const Hero = styled.div`
+width: 100vw;
+height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+&::before {
+  content: '';
+  background-image: url(${backgroundImage});
+  filter: grayscale(100%);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  position: absolute;
+}
 `
 
 const Container = styled.div`
 grid-column: 3;
 `
 
-export default Hero
+const Name = styled.div`
+background-image: url(${nameImage});
+background-size: cover;
+background-position: center;
+height: 100vh;
+width: 130vw;
+position: relative;
+`
+
+export default Jumbotron

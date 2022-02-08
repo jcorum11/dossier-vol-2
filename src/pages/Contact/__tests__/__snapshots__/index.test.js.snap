@@ -3,78 +3,77 @@
 exports[`Contact component matches snapshot 1`] = `
 <DocumentFragment>
   <section
-    class="container"
     id="contact-form"
   >
-    <h1
-      class="display-1 text-center"
-      data-testid="contact"
+    <div
+      class="container"
     >
-      Contact Me
-    </h1>
-    <form>
-      <div
-        class="form-group"
+      <h1
+        class="display-1 text-center"
+        data-testid="contact"
       >
-        <label
-          for="name"
+        Contact Me
+      </h1>
+      <form>
+        <div
+          class="form-group"
         >
-          Name
-        </label>
-        <input
-          class="form-control"
-          id="nameInput"
-          name="name"
-          type="text"
-          value=""
-        />
-      </div>
-      <div
-        class="form-group"
-      >
-        <label
-          for="exampleInputEmail1"
+          <label
+            for="name"
+          >
+            Name
+          </label>
+          <input
+            class="form-control"
+            id="nameInput"
+            name="name"
+            placeholder="James Halliday"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="form-group"
         >
-          Email address
-        </label>
-        <input
-          aria-describedby="emailHelp"
-          class="form-control"
-          id="exampleInputEmail1"
-          name="email"
-          placeholder="Enter email"
-          type="email"
-          value=""
-        />
-        <small
-          class="form-text text-muted"
-          id="emailHelp"
+          <label
+            for="exampleInputEmail1"
+          >
+            Email address
+          </label>
+          <input
+            aria-describedby="emailHelp"
+            class="form-control"
+            id="exampleInputEmail1"
+            name="email"
+            placeholder="anorak@oasis.com"
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          class="form-group"
         >
-          I'll never share your email with anyone else.
-        </small>
-      </div>
-      <div
-        class="form-group"
-      >
-        <label
-          for="exampleFormControlTextarea1"
+          <label
+            for="exampleFormControlTextarea1"
+          >
+            Message
+          </label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            name="message"
+            placeholder="“I didn't think anyone would anticipate this move, because it was so clearly insane.”"
+            rows="3"
+          />
+        </div>
+        <button
+          class="btn"
+          type="submit"
         >
-          Message
-        </label>
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          name="message"
-          rows="3"
-        />
-      </div>
-      <button
-        class="btn btn-primary"
-        type="submit"
-      >
-        Submit
-      </button>
-    </form>
+          Submit
+        </button>
+      </form>
+    </div>
   </section>
 </DocumentFragment>
 `;
