@@ -26,7 +26,7 @@ const Resume = () => {
 
 const Container = styled.section`
 position: relative;
-height: 75vh;
+height: 100vh;
 width: 100vw;
 display: grid;
 grid-template-columns: 50vw 50vw;

@@ -2,32 +2,45 @@
 
 exports[`Resume component matches snapshot 1`] = `
 <DocumentFragment>
-  <section
-    class="py-5 text-center"
-    id="resume"
-  >
-    <div
-      class="container"
+  <section>
+    <h1
+      class="sc-bdvvtL eCmgPR"
+      data-testid="resume"
     >
-      <h2
-        class="display-1 text-center"
-        data-testid="resume-title"
+      RESUME
+    </h1>
+    <section
+      class="sc-gsDKAQ hUexUB"
+    >
+      <div
+        class="sc-hKwDye ejxgWt"
       >
-        <span>
-          Resume
-        </span>
-      </h2>
-      <a
-        alt="Jake's resume"
-        class="wrapper"
-        href="jacob-corum-resume-oct-2020.pdf"
+        <h1
+          class="sc-dkPtRN iWIqJx"
+        >
+          WANT TO HIRE ME?
+        </h1>
+      </div>
+      <div
+        class="sc-iCfMLu fGzxLG"
       >
-        <div
-          class="box-shadow-purple border-green"
-          id="resume-img"
-        />
-      </a>
-    </div>
+        <a
+          class="sc-eCImPb gXOPJo"
+          href="jacob-corum-resume-oct-2020.pdf"
+        >
+          <div
+            class="sc-jRQBWg kSpkjh"
+          />
+        </a>
+        <a
+          class="sc-gKclnd jOiNDf"
+          download="jake-corums-resume"
+          href="jacob-corum-resume-oct-2020.pdf"
+        >
+          download
+        </a>
+      </div>
+    </section>
   </section>
 </DocumentFragment>
 `;

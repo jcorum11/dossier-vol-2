@@ -1,126 +1,118 @@
-import React, { useState } from "react";
-import { validateEmail } from "../../utils/helpers";
-import emailjs from "emailjs-com";
+import styled from 'styled-components'
+import { green, pink } from '../../variables'
+import backgroundImage from './david-dvoracek-mwnBGQhka18-unsplash.jpg'
+import SectionTitle from '../../components/SectionTitle'
+import { Fragment } from 'react'
 
-function ContactForm() {
-  const [errorMessage, setErrorMessage] = useState("");
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const { name, email, message } = formState;
-  function handleChange(e) {
-    if (e.target.name === "email") {
-      const isValid = validateEmail(e.target.value);
-      console.log(isValid);
-      if (!isValid) {
-        setErrorMessage("Your email address is invalid");
-      } else {
-        setErrorMessage("");
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required`);
-      } else {
-        setErrorMessage("");
-      }
-    }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-    }
-    setFormState({ ...formState, name: e.target.value });
-    console.log("errorMessage", errorMessage);
-  }
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log(formState);
-  }
-  function sendEmail(e) {
-    e.preventDefault();
-
-    emailjs
-      .sendForm("", "", e.target, "YOUR_USER_ID")
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  }
+const Contact = () => {
   return (
-    <section id="contact-form">
-      <div className="container">
-        <h1 data-testid="contact" className="display-1 text-center">
-          Contact Me
-        </h1>
-        <form onSubmit={sendEmail}>
-          <div className="form-group">
-            <label htmlFor="name">Name</label>
-            <input
-              className="form-control"
-              type="text"
-              name="name"
-              id="nameInput"
-              defaultValue={name}
-              placeholder="James Halliday"
-              onBlur={handleChange}
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Email address</label>
-            <input
-              type="email"
-              className="form-control"
-              name="email"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="anorak@oasis.com"
-              defaultValue={email}
-              onBlur={handleChange}
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="exampleFormControlTextarea1">Message</label>
-            <textarea
-              className="form-control"
-              name="message"
-              id="exampleFormControlTextarea1"
-              rows="3"
-              placeholder="“I didn't think anyone would anticipate this move, because it was so clearly insane.”"
-              onBlur={handleChange}
-              defaultValue={message}
-            ></textarea>
-          </div>
-          <button type="submit" className="btn">
-            Submit
-          </button>
-          {errorMessage && (
-            <div>
-              <p className="error-text">{errorMessage}</p>
-            </div>
-          )}
-        </form>
-      </div>
-    </section>
-    // <section id="contact-form" className="">
-    //   <div className="container">
-    //     <div className="row d-flex justify-content-center">
-    //       <h1>
-    //         Email:{" "}
-    //         <a href="mailto:jacob.w.corum@gmail.com">jacob.w.corum@gmail.com</a>
-    //       </h1>
-    //     </div>
-    //     <div className="row d-flex justify-content-center">
-    //       <h1>
-    //         Phone: <a href="tel:1-801-814-3191">801-814-3191</a>
-    //       </h1>
-    //     </div>
-    //   </div>
-    // </section>
-  );
+    <Fragment>
+      <SectionTitle name='contact' />
+      <Container>
+        <SocialContainer>
+          <LinkContainer>
+            <Link href="href='https://www.linkedin.com/in/jacob-corum-full-stack-development/'">
+              <SocialText>LinkedIn</SocialText>
+            </Link>
+          </LinkContainer>
+          <LinkContainer>
+            <Link href='https://github.com/jcorum11'>
+              <SocialText>Github</SocialText>
+            </Link>
+          </LinkContainer>
+        </SocialContainer>
+        <InfoContainer>
+          <Email href='mailto: jacob.w.corum@gmail.com'>jacob.w.corum@gmail.com</Email>
+          <PhoneNumber href='tel: 801-814-3191'>801-814-3191</PhoneNumber>
+        </InfoContainer>
+      </Container>
+    </Fragment>
+  )
 }
 
-export default ContactForm;
+const InfoText = styled.a`
+display: block;
+position: relative;
+text-decoration: none;
+color: ${green};
+&:hover {
+  top: -1rem;
+  text-shadow: 0 1rem ${pink};
+}
+&:active {
+  top: -0.5rem;
+  text-shadow: 0 0.5rem ${pink}
+}
+`
+
+const Email = styled(InfoText)`
+
+`
+
+const PhoneNumber = styled(InfoText)`
+
+`
+
+const Container = styled.section`
+position: relative;
+width: 100vw;
+height: 75vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+&::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(${backgroundImage});
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+`
+
+const InfoContainer = styled.div`
+position: relative;
+grid-row: 2;
+margin: 0 auto;
+text-align: center;
+font-size: 4rem;
+font-weight: lighter;
+`
+
+const LinkContainer = styled.div`
+position: relative;
+background-color: ${pink};
+border-radius: 10px;
+padding: 0.5rem;
+margin: 1rem;
+text-decoration: none;
+&:hover {
+  top: -1rem;
+  box-shadow: 0 1rem ${green};
+}
+&:active {
+  top: -0.5rem;
+  box-shadow: 0 0.5rem ${green};
+}
+`
+
+const SocialText = styled.p`
+position: relative;
+margin: 0;
+font-size: 4rem;
+color: ${green};
+font-family: 'Beth Ellen', cursive;
+`
+
+const SocialContainer = styled.div`
+display: flex;
+`
+
+const Link = styled.a`
+text-decoration: none;
+`
+
+export default Contact
