@@ -5,10 +5,10 @@ import firstImage from './IMG_1011.jpeg'
 import secondImage from './IMG_3175.jpeg'
 import SectionTitle from '../../components/SectionTitle'
 
-const About = () => {
+const About = ({ currentSection, currentSectionOption }) => {
   return (
     <Fragment>
-      <Section id="about">
+      <Section id="about" ref={currentSectionOption === 'about' ? currentSection : null}>
         <Container>
           <SectionTitle name='about' />
           <RowContainer>
@@ -43,6 +43,7 @@ const About = () => {
 const Section = styled.section`
 grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(2, auto);
+scroll-snap-align: start;
 `
 
 const Container = styled.div`

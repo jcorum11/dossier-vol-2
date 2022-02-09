@@ -15,6 +15,9 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
+/* html {
+  scroll-behavior: smooth;
+} */
 `
 
 ReactDOM.render(

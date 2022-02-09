@@ -31,6 +31,7 @@ position: relative;
 
 const Container = styled.div`
 grid-column: 3;
+scroll-snap-align: start;
 `
 
 const Name = styled.div`
