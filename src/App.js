@@ -3,14 +3,11 @@ import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
-import { useSelector } from 'react-redux'
-import { selectSelectedTab } from './store/navigationSlice'
 import styled from 'styled-components';
 import Landing from './pages/Landing'
 import { pink, blue } from './variables'
 
 function App() {
-  const selectedTab = useSelector(selectSelectedTab)
   return (
     <Container>
       <Nav />

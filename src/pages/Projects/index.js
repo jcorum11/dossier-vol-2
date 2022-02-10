@@ -1,5 +1,4 @@
 import SectionTitle from '../../components/SectionTitle'
-import styled from 'styled-components'
 import Project from '../../components/Project'
 
 function Projects() {
