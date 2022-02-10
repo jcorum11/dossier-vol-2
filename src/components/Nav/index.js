@@ -6,24 +6,10 @@ import { colors } from '../../variables'
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false)
-  const [menuIconHover, setMenuIconHover] = useState(false)
-  const [timesIconHover, setTimesIconHover] = useState(false)
   return (
     <Navbar>
-      {!menuOpen && <StyledIoMenu
-        onClick={() => setMenuOpen(true)}
-        onPointerOver={() => {
-            setMenuIconHover(true)
-          }}
-        onPointerOut={() => {
-          setMenuIconHover(false)
-        }}
-      />}
-      {menuOpen && <StyledFaTimes
-        onClick={() => setMenuOpen(false)}
-        onMouseEnter={() => setTimesIconHover(true)}
-        onMouseLeave={() => setTimesIconHover(false)}
-      />}
+      {!menuOpen && <StyledIoMenu onClick={() => setMenuOpen(true)} />}
+      {menuOpen && <StyledFaTimes onClick={() => setMenuOpen(false)} />}
       <Container>
         {menuOpen && (
           <Fragment>
