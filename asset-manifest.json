@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/dossier-vol-2/static/js/main.53e189b2.js",
+    "main.js": "/dossier-vol-2/static/js/main.663aa738.js",
     "static/media/sumaid-pal-singh-bakshi-YZS1ATCDifw-unsplash.jpg": "/dossier-vol-2/static/media/sumaid-pal-singh-bakshi-YZS1ATCDifw-unsplash.165eccf70fd774f8c9ba.jpg",
     "static/media/mick-haupt-OQrZQ80eNM4-unsplash.jpg": "/dossier-vol-2/static/media/mick-haupt-OQrZQ80eNM4-unsplash.e97666811ebbd3e506f2.jpg",
     "static/media/david-dvoracek-mwnBGQhka18-unsplash.jpg": "/dossier-vol-2/static/media/david-dvoracek-mwnBGQhka18-unsplash.455e4556b682557a0eb7.jpg",
@@ -11,9 +11,9 @@
     "static/media/jacob-corum-resume-oct-2020.png": "/dossier-vol-2/static/media/jacob-corum-resume-oct-2020.0b0a80ebf036915f2734.png",
     "static/media/jacob-corum-resume-oct-2020.pdf": "/dossier-vol-2/static/media/jacob-corum-resume-oct-2020.ba52f68b9deab4ce193b.pdf",
     "index.html": "/dossier-vol-2/index.html",
-    "main.53e189b2.js.map": "/dossier-vol-2/static/js/main.53e189b2.js.map"
+    "main.663aa738.js.map": "/dossier-vol-2/static/js/main.663aa738.js.map"
   },
   "entrypoints": [
-    "static/js/main.53e189b2.js"
+    "static/js/main.663aa738.js"
   ]
 }
