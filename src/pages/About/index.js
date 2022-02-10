@@ -1,8 +1,8 @@
 import { Fragment } from 'react'
 import styled from 'styled-components'
 import { colors } from '../../variables'
-import firstImage from './IMG_1011.jpeg'
-import secondImage from './IMG_3175.jpeg'
+import firstImage from './assets/IMG_1011.jpeg'
+import secondImage from './assets/IMG_3175.jpeg'
 import SectionTitle from '../../components/SectionTitle'
 
 const About = () => {

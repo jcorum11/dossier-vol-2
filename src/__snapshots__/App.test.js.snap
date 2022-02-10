@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-ikJyIC gXvOLS"
+  >
+    <nav
+      class="sc-fFeiMQ krJEJI"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        style="color: rgb(188, 76, 132); font-size: 4rem; cursor: pointer;"
+        viewBox="0 0 512 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M88 152h336M88 256h336M88 360h336"
+          fill="none"
+          stroke-linecap="round"
+          stroke-miterlimit="10"
+          stroke-width="48"
+        />
+      </svg>
+      <div />
+    </nav>
+    <main
+      class="pt-yellow"
+    >
+      <div
+        class="sc-bYoBSM gdckom"
+      >
+        <div
+          class="sc-ezbkAF gsJTBK"
+        >
+          <div
+            class="sc-kLwhqv ialxco"
+          />
+        </div>
+      </div>
+      <section
+        class="sc-gsDKAQ icFUsL"
+        id="about"
+      >
+        <div
+          class="sc-dkPtRN eGNtso"
+        >
+          <h1
+            class="sc-bdvvtL eCmgPR"
+            data-testid="about"
+          >
+            ABOUT
+          </h1>
+          <div
+            class="sc-jRQBWg zyyOv"
+          >
+            <div
+              class="sc-eCImPb hCJQkq"
+            />
+            <div
+              class="sc-furwcr bTmVdy"
+            >
+              <p
+                class="sc-hKwDye eZtEyV"
+              >
+                I have worked to overcome obstacles to become a full stack developer graduating from University of Utah’s boot camp near the top of the class, earning me a full-stack developer certificate with a background in Industrial/Organizational Psychology.
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-jRQBWg zyyOv"
+          >
+            <div
+              class="sc-furwcr sc-pVTFL bTmVdy dhdyKd"
+            >
+              <p
+                class="sc-hKwDye sc-iCfMLu eZtEyV fAntMl"
+              >
+                I have studied diligently to learn and implement React, Redux, and GraphQL. I implemented all three of these in a project called Rolodeck where I worked with a team and implemented GraphQL for the entire project, programmed a QR scanner in React, and implemented Redux for easily transferable data.
+              </p>
+            </div>
+            <div
+              class="sc-eCImPb sc-gKclnd hCJQkq gNefWy"
+            />
+          </div>
+        </div>
+      </section>
+      <section
+        class="py-5"
+        id="projects"
+      >
+        <h1
+          class="sc-bdvvtL eCmgPR"
+          data-testid="projects"
+        >
+          PROJECTS
+        </h1>
+        <section>
+          <div
+            class="sc-ieecCq AsoML"
+          >
+            <h1
+              class="sc-dJjYzT OOnfc"
+            >
+              Harpoon Mobile
+            </h1>
+            <p
+              class="sc-dlVxhl grfJGU"
+            >
+              I really love baseball cards. Like... I really love them. I made an app in React Native for my friend as a kind of social media for baseball cards. This one doesnt have a link yet but I hope it will soon!
+            </p>
+            <a
+              class="sc-hGPBjI evBewg"
+              href=""
+            >
+              link
+            </a>
+          </div>
+          <div
+            class="sc-kfPuZi eLYRVI"
+          />
+          <div
+            class="sc-ieecCq AsoML"
+          >
+            <h1
+              class="sc-dJjYzT OOnfc"
+            >
+              Sploots!
+            </h1>
+            <p
+              class="sc-dlVxhl grfJGU"
+            >
+              This is another one that I did with a friend of mine. It too doesnt have a link because we are still working on it, but it is a website for people to sell dogs and pet services that has a really good UI.
+            </p>
+            <a
+              class="sc-hGPBjI evBewg"
+              href=""
+            >
+              link
+            </a>
+          </div>
+          <div
+            class="sc-kfPuZi eLYRVI"
+          />
+          <div
+            class="sc-ieecCq AsoML"
+          >
+            <h1
+              class="sc-dJjYzT OOnfc"
+            >
+              Rolodeck
+            </h1>
+            <p
+              class="sc-dlVxhl grfJGU"
+            >
+              I am really proud of this one. I got a group of friends together and we worked really hard on it. I really loved working with them. You should definitely check this one out.
+            </p>
+            <a
+              class="sc-hGPBjI evBewg"
+              href="https://obscure-reef-91673.herokuapp.com/"
+            >
+              link
+            </a>
+          </div>
+          <div
+            class="sc-kfPuZi eLYRVI"
+          />
+          <div
+            class="sc-ieecCq AsoML"
+          >
+            <h1
+              class="sc-dJjYzT OOnfc"
+            >
+              D&D Tracker
+            </h1>
+            <p
+              class="sc-dlVxhl grfJGU"
+            >
+              This was a really cool tracker that I did during bootcamp. Check it out!
+            </p>
+            <a
+              class="sc-hGPBjI evBewg"
+              href="https://johnnielsen1221.github.io/dd-initiative-tracker/"
+            >
+              link
+            </a>
+          </div>
+        </section>
+      </section>
+      <section>
+        <h1
+          class="sc-bdvvtL eCmgPR"
+          data-testid="resume"
+        >
+          RESUME
+        </h1>
+        <section
+          class="sc-fKVqWL OmJez"
+        >
+          <div
+            class="sc-iwjdpV MrJKP"
+          >
+            <h1
+              class="sc-bBHxTw hLoiuN"
+            >
+              WANT TO HIRE ME?
+            </h1>
+          </div>
+          <div
+            class="sc-giYglK cxceLx"
+          >
+            <a
+              class="sc-cxpSdN iUtqVS"
+              href="jacob-corum-resume-oct-2020.pdf"
+            >
+              <div
+                class="sc-llYSUQ bPxYqU"
+              />
+            </a>
+            <a
+              class="sc-iJKOTD gcgBlB"
+              download="jake-corums-resume"
+              href="jacob-corum-resume-oct-2020.pdf"
+            >
+              download
+            </a>
+          </div>
+        </section>
+      </section>
+      <h1
+        class="sc-bdvvtL eCmgPR"
+        data-testid="contact"
+      >
+        CONTACT
+      </h1>
+      <section
+        class="sc-crHmcD jKubrL"
+      >
+        <div
+          class="sc-hBUSln fpUdPB"
+        >
+          <div
+            class="sc-bqiRlB jIJsuB"
+          >
+            <a
+              class="sc-fotOHu fKLNwJ"
+              href="href='https://www.linkedin.com/in/jacob-corum-full-stack-development/'"
+            >
+              <p
+                class="sc-ksdxgE jsgTga"
+              >
+                LinkedIn
+              </p>
+            </a>
+          </div>
+          <div
+            class="sc-bqiRlB jIJsuB"
+          >
+            <a
+              class="sc-fotOHu fKLNwJ"
+              href="https://github.com/jcorum11"
+            >
+              <p
+                class="sc-ksdxgE jsgTga"
+              >
+                Github
+              </p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="sc-egiyK gkhPaR"
+        >
+          <a
+            class="sc-jrQzAO sc-kDTinF cBxVKb eKdzuN"
+            href="mailto: jacob.w.corum@gmail.com"
+          >
+            jacob.w.corum@gmail.com
+          </a>
+          <a
+            class="sc-jrQzAO sc-iqseJM cBxVKb OVvVy"
+            href="tel: 801-814-3191"
+          >
+            801-814-3191
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div
+        class="sc-jJoQJp eUUrZE"
+      >
+        <p
+          class="sc-hiCibw hxkzhq"
+        >
+          Designed by Kyanna Corum 
+          <span
+            aria-label="heart"
+            role="img"
+          >
+            ❤️ 
+          </span>
+        </p>
+        <p
+          class="sc-hiCibw hxkzhq"
+        >
+          Developed by Jake 
+          <span
+            aria-label="peace sign"
+            role="img"
+          >
+            ✌
+          </span>
+        </p>
+      </div>
+    </footer>
+  </div>
+</DocumentFragment>
+`;

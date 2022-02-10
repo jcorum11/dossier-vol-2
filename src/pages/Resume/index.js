@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 import SectionTitle from '../../components/SectionTitle'
-import backgroundImage from './sumaid-pal-singh-bakshi-YZS1ATCDifw-unsplash.jpg'
+import backgroundImage from './assets/sumaid-pal-singh-bakshi-YZS1ATCDifw-unsplash.jpg'
 import { pink, green } from '../../variables'
-import resumeImage from './jacob-corum-resume-oct-2020.png'
-import resumePdf from './jacob-corum-resume-oct-2020.pdf'
+import resumeImage from './assets/jacob-corum-resume-oct-2020.png'
+import resumePdf from './assets/jacob-corum-resume-oct-2020.pdf'
 
 const Resume = () => {
   return (

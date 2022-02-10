@@ -14,11 +14,6 @@ describe("Projects component", () => {
     const { asFragment } = render(<Projects />);
     expect(asFragment()).toMatchSnapshot();
   });
-});
 
-describe("inserts header correctly", () => {
-  it("says 'Projects' at the top", () => {
-    const { getByTestId } = render(<Projects />);
-    expect(getByTestId("project-title")).toHaveTextContent("Projects");
-  });
+  // data validation
 });

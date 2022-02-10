@@ -15,8 +15,3 @@ describe("Contact component", () => {
     expect(asFragment()).toMatchSnapshot();
   });
 });
-
-describe("link is correct", () => {
-  const { getByTestId } = render(<Contact />);
-  expect(getByTestId("contact")).toHaveTextContent("Contact Me");
-});

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { green, pink } from '../../variables'
-import backgroundImage from './david-dvoracek-mwnBGQhka18-unsplash.jpg'
+import backgroundImage from './assets/david-dvoracek-mwnBGQhka18-unsplash.jpg'
 import SectionTitle from '../../components/SectionTitle'
 
 const Contact = () => {

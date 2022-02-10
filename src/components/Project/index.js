@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import rolodeckBackground from './mick-haupt-OQrZQ80eNM4-unsplash.jpg'
+import rolodeckBackground from './assets/mick-haupt-OQrZQ80eNM4-unsplash.jpg'
 import { colors } from '../../variables'
 import { Fragment } from 'react'
 
@@ -80,7 +80,7 @@ text-align: center;
 
 const Spacer = styled.div`
 height: 10rem;
-background-color: ${colors.blue}
+background-color: ${colors.blue};
 `
 
 export default Project

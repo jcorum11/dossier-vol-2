@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Resume component matches snapshot 1`] = `
+exports[`Resume matches snapshot 1`] = `
 <DocumentFragment>
   <section>
     <h1
