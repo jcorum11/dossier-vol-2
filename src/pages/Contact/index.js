@@ -2,11 +2,10 @@ import styled from 'styled-components'
 import { green, pink } from '../../variables'
 import backgroundImage from './david-dvoracek-mwnBGQhka18-unsplash.jpg'
 import SectionTitle from '../../components/SectionTitle'
-import { Fragment } from 'react'
 
 const Contact = () => {
   return (
-    <Fragment>
+    <section id='contact'>
       <SectionTitle name='contact' />
       <Container>
         <SocialContainer>
@@ -26,7 +25,7 @@ const Contact = () => {
           <PhoneNumber href='tel: 801-814-3191'>801-814-3191</PhoneNumber>
         </InfoContainer>
       </Container>
-    </Fragment>
+    </section>
   )
 }
 

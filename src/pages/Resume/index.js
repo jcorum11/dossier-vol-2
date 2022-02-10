@@ -7,7 +7,7 @@ import resumePdf from './jacob-corum-resume-oct-2020.pdf'
 
 const Resume = () => {
   return (
-    <section>
+    <section id='resume'>
       <SectionTitle name='resume' />
       <Container>
         <TitleContainer>
