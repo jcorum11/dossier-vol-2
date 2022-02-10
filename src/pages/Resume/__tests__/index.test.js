@@ -5,7 +5,7 @@ import Resume from "..";
 
 afterEach(cleanup);
 
-describe("Resume component", () => {
+describe("Resume", () => {
   it("renders", () => {
     render(<Resume />);
   });
@@ -13,12 +13,5 @@ describe("Resume component", () => {
   it("matches snapshot", () => {
     const { asFragment } = render(<Resume />);
     expect(asFragment()).toMatchSnapshot();
-  });
-});
-
-describe("inserts header correctly", () => {
-  it("says 'Resume' at the top", () => {
-    const { getByTestId } = render(<Resume />);
-    expect(getByTestId("resume-title")).toHaveTextContent("Resume");
   });
 });

@@ -1,8 +1,15 @@
-import { render, screen } from './test-utils';
+import { render, cleanup } from './test-utils';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+afterEach(cleanup)
+
+describe('App', () =>  {
+  it('renders', async () => {
+    render(<App />);
+  })
+
+  it('matches snapshot', async() => {
+    const { asFragment } = render(<App />)
+    expect(asFragment()).toMatchSnapshot()
+  })
+})
