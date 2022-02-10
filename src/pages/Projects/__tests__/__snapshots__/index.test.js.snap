@@ -7,101 +7,102 @@ exports[`Projects component matches snapshot 1`] = `
     id="projects"
   >
     <h1
-      class="display-1 text-center"
-      data-testid="project-title"
+      class="sc-bdvvtL eCmgPR"
+      data-testid="projects"
     >
-      Projects
+      PROJECTS
     </h1>
-    <div
-      class="container"
-    >
+    <section>
       <div
-        class="row"
+        class="sc-gsDKAQ dzGDQ"
       >
-        <a
-          class="col-sm rounded parent"
-          href="https://johnnielsen1221.github.io/dd-initiative-tracker/"
+        <h1
+          class="sc-dkPtRN emjJLE"
         >
-          <div
-            class="rounded child"
-            id="proj-pic-1"
-          >
-            <span>
-              D&D Initiative Tracker
-            </span>
-          </div>
-        </a>
+          Harpoon Mobile
+        </h1>
+        <p
+          class="sc-eCImPb jCiNQu"
+        >
+          I really love baseball cards. Like... I really love them. I made an app in React Native for my friend as a kind of social media for baseball cards. This one doesnt have a link yet but I hope it will soon!
+        </p>
         <a
-          class="col-sm rounded parent"
+          class="sc-hKwDye dcoxRa"
+          href=""
+        >
+          link
+        </a>
+      </div>
+      <div
+        class="sc-jRQBWg cOhaOf"
+      />
+      <div
+        class="sc-gsDKAQ dzGDQ"
+      >
+        <h1
+          class="sc-dkPtRN emjJLE"
+        >
+          Sploots!
+        </h1>
+        <p
+          class="sc-eCImPb jCiNQu"
+        >
+          This is another one that I did with a friend of mine. It too doesnt have a link because we are still working on it, but it is a website for people to sell dogs and pet services that has a really good UI.
+        </p>
+        <a
+          class="sc-hKwDye dcoxRa"
+          href=""
+        >
+          link
+        </a>
+      </div>
+      <div
+        class="sc-jRQBWg cOhaOf"
+      />
+      <div
+        class="sc-gsDKAQ dzGDQ"
+      >
+        <h1
+          class="sc-dkPtRN emjJLE"
+        >
+          Rolodeck
+        </h1>
+        <p
+          class="sc-eCImPb jCiNQu"
+        >
+          I am really proud of this one. I got a group of friends together and we worked really hard on it. I really loved working with them. You should definitely check this one out.
+        </p>
+        <a
+          class="sc-hKwDye dcoxRa"
           href="https://obscure-reef-91673.herokuapp.com/"
         >
-          <div
-            class="rounded child"
-            id="proj-pic-2"
-          >
-            <span>
-              Swap-Squad
-            </span>
-          </div>
-        </a>
-        <a
-          class="col-sm rounded parent"
-          href="https://rolodeck.herokuapp.com/"
-        >
-          <div
-            class="rounded child"
-            id="proj-pic-rolodeck"
-          >
-            <span>
-              RoloDeck
-            </span>
-          </div>
+          link
         </a>
       </div>
       <div
-        class="row"
+        class="sc-jRQBWg cOhaOf"
+      />
+      <div
+        class="sc-gsDKAQ dzGDQ"
       >
-        <a
-          class="col-sm rounded parent"
-          href="https://jcorum11.github.io/run-buddy/"
+        <h1
+          class="sc-dkPtRN emjJLE"
         >
-          <div
-            class="rounded child"
-            id="proj-pic-3"
-          >
-            <span>
-              Run Buddy
-            </span>
-          </div>
-        </a>
-        <a
-          class="col-sm rounded parent"
-          href="https://github.com/jcorum11/README.zing"
+          D&D Tracker
+        </h1>
+        <p
+          class="sc-eCImPb jCiNQu"
         >
-          <div
-            class="rounded child"
-            id="proj-pic-4"
-          >
-            <span>
-              README.zing
-            </span>
-          </div>
-        </a>
+          This was a really cool tracker that I did during bootcamp. Check it out!
+        </p>
         <a
-          class="col-sm rounded parent"
-          href="https://jcorum11.github.io/test-rabbit/"
+          class="sc-hKwDye dcoxRa"
+          href="https://johnnielsen1221.github.io/dd-initiative-tracker/"
         >
-          <div
-            class="rounded child"
-            id="proj-pic-5"
-          >
-            <span>
-              Test Rabbit
-            </span>
-          </div>
+          link
         </a>
       </div>
-    </div>
+    </section>
   </section>
 </DocumentFragment>
 `;

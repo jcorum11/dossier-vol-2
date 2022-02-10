@@ -3,14 +3,14 @@
 exports[`Nav component matches snapshot 1`] = `
 <DocumentFragment>
   <nav
-    class="sc-bdvvtL hBpKVe"
+    class="sc-bdvvtL eoiuGm"
   >
     <svg
+      class="sc-dkPtRN hBlkKG"
       fill="currentColor"
       height="1em"
       stroke="currentColor"
       stroke-width="0"
-      style="color: rgb(188, 76, 132); font-size: 4rem; cursor: pointer;"
       viewBox="0 0 512 512"
       width="1em"
       xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,9 @@ exports[`Nav component matches snapshot 1`] = `
         stroke-width="48"
       />
     </svg>
-    <div />
+    <div
+      class="sc-eCImPb bVRtTw"
+    />
   </nav>
 </DocumentFragment>
 `;

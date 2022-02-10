@@ -3,33 +3,50 @@
 exports[`About matches snapshot 1`] = `
 <DocumentFragment>
   <section
-    class="sc-hKwDye fGRvuk"
+    class="sc-gsDKAQ icFUsL"
     id="about"
   >
     <div
-      class="sc-gsDKAQ euceyN"
-    >
-      <div
-        class="sc-bdvvtL ihLGt"
-      />
-      <div
-        class="sc-dkPtRN gxzRKy"
-      />
-    </div>
-    <div
-      class="sc-eCImPb kancxw"
+      class="sc-dkPtRN eGNtso"
     >
       <h1
-        class="sc-jRQBWg kAhDCO"
+        class="sc-bdvvtL eCmgPR"
         data-testid="about"
       >
-        About
+        ABOUT
       </h1>
-      <p
-        class="sc-gKclnd dPlqrI"
+      <div
+        class="sc-jRQBWg zyyOv"
       >
-        I have worked to overcome obstacles to become a full stack developer graduating from University of Utah’s boot camp near the top of the class, earning me a full-stack developer certificate with a background in Industrial/Organizational Psychology. I have studied diligently to learn and implement React, Redux, and GraphQL. I implemented all three of these in a project called Rolodeck where I worked with a team and implemented GraphQL for the entire project, programmed a QR scanner in React, and implemented Redux for easily transferable data.
-      </p>
+        <div
+          class="sc-eCImPb hCJQkq"
+        />
+        <div
+          class="sc-furwcr bTmVdy"
+        >
+          <p
+            class="sc-hKwDye eZtEyV"
+          >
+            I have worked to overcome obstacles to become a full stack developer graduating from University of Utah’s boot camp near the top of the class, earning me a full-stack developer certificate with a background in Industrial/Organizational Psychology.
+          </p>
+        </div>
+      </div>
+      <div
+        class="sc-jRQBWg zyyOv"
+      >
+        <div
+          class="sc-furwcr sc-pVTFL bTmVdy dhdyKd"
+        >
+          <p
+            class="sc-hKwDye sc-iCfMLu eZtEyV fAntMl"
+          >
+            I have studied diligently to learn and implement React, Redux, and GraphQL. I implemented all three of these in a project called Rolodeck where I worked with a team and implemented GraphQL for the entire project, programmed a QR scanner in React, and implemented Redux for easily transferable data.
+          </p>
+        </div>
+        <div
+          class="sc-eCImPb sc-gKclnd hCJQkq gNefWy"
+        />
+      </div>
     </div>
   </section>
 </DocumentFragment>
