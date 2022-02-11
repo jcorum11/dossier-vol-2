@@ -8,15 +8,15 @@ const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <Navbar>
-      {!menuOpen && <StyledIoMenu onClick={() => setMenuOpen(true)} />}
-      {menuOpen && <StyledFaTimes onClick={() => setMenuOpen(false)} />}
+      {!menuOpen && <StyledIoMenu data-testid='nav-button-hamburger' onClick={() => setMenuOpen(true)} />}
+      {menuOpen && <StyledFaTimes data-testid='nav-button-times' onClick={() => setMenuOpen(false)} />}
       <Container>
         {menuOpen && (
           <Fragment>
-            <ButtonContainer><Button data-testid='about' href='#about'>About Me</Button></ButtonContainer>
-            <ButtonContainer><Button data-testid='projects' href='#projects'>Projects</Button></ButtonContainer>
-            <ButtonContainer><Button data-testid='resume' href='#resume'>Resume</Button></ButtonContainer>
-            <ButtonContainer><Button data-testid='contact' href='#contact'>Contact Me</Button></ButtonContainer>
+            <ButtonContainer><Button href='#about'>About Me</Button></ButtonContainer>
+            <ButtonContainer><Button href='#projects'>Projects</Button></ButtonContainer>
+            <ButtonContainer><Button href='#resume'>Resume</Button></ButtonContainer>
+            <ButtonContainer><Button href='#contact'>Contact Me</Button></ButtonContainer>
           </Fragment>
         )}
       </Container>

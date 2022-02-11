@@ -5,15 +5,13 @@ import Projects from "..";
 
 afterEach(cleanup);
 
-describe("Projects component", () => {
-  it("renders", () => {
-    render(<Projects />);
-  });
+it("renders", async () => {
+  render(<Projects />);
+});
 
-  it("matches snapshot", () => {
-    const { asFragment } = render(<Projects />);
-    expect(asFragment()).toMatchSnapshot();
-  });
+it("matches snapshot", async () => {
+  const { asFragment } = render(<Projects />);
+  expect(asFragment()).toMatchSnapshot();
+});
 
   // data validation
-});
