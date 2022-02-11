@@ -1,8 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Resume matches snapshot 1`] = `
+exports[`matches snapshot 1`] = `
 <DocumentFragment>
-  <section>
+  <section
+    id="resume"
+  >
     <h1
       class="sc-bdvvtL eCmgPR"
       data-testid="resume"

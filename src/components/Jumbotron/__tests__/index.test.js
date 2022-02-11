@@ -1,17 +1,15 @@
-import React from "react";
-import { render, cleanup } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect";
-import Hero from "..";
+import React from "react"
+import { render, cleanup } from "@testing-library/react"
+import "@testing-library/jest-dom/extend-expect"
+import Hero from ".."
 
-afterEach(cleanup);
+afterEach(cleanup)
 
-describe("Hero component", () => {
-  it("renders", () => {
-    render(<Hero />);
-  });
+it("renders", async () => {
+  render(<Hero />)
+})
 
-  it("matches snapshot", () => {
-    const { asFragment } = render(<Hero />);
-    expect(asFragment()).toMatchSnapshot();
-  });
-});
+it("matches snapshot", async () => {
+  const { asFragment } = render(<Hero />)
+  expect(asFragment()).toMatchSnapshot()
+})
