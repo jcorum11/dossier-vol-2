@@ -5,16 +5,26 @@ import { FaTimes } from 'react-icons/fa'
 import { colors } from '../../variables'
 
 const Nav = () => {
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(undefined)
+  const [mobileButtonVisible, setMobileButtonVisible] = useState(false)
+  let timeoutId
+  const delayedHideButtons = () => {
+    setMenuOpen(false)
+    timeoutId = setTimeout(() => setMobileButtonVisible(false), 1000)
+  }
+  const showButtons = () => {
+    setMenuOpen(true)
+    setMobileButtonVisible(true)
+  }
   return (
     <Navbar slideDown={menuOpen}>
-      {!menuOpen && <StyledIoMenu data-testid='nav-button-hamburger' onClick={() => setMenuOpen(true)} />}
-      {menuOpen && <StyledFaTimes data-testid='nav-button-times' onClick={() => setMenuOpen(false)} />}
-      <Container>
-        <ButtonContainer><Button href='#about'>About Me</Button></ButtonContainer>
-        <ButtonContainer><Button href='#projects'>Projects</Button></ButtonContainer>
-        <ButtonContainer><Button href='#resume'>Resume</Button></ButtonContainer>
-        <ButtonContainer><Button href='#contact'>Contact Me</Button></ButtonContainer>
+      {!menuOpen && <StyledIoMenu data-testid='nav-button-hamburger' onClick={() => showButtons()} />}
+      {menuOpen && <StyledFaTimes data-testid='nav-button-times' onClick={() => delayedHideButtons()} />}
+      <Container >
+        <ButtonContainer desktopButtonVisible={menuOpen} mobileButtonVisible={mobileButtonVisible}><Button href='#about'>About Me</Button></ButtonContainer>
+        <ButtonContainer desktopButtonVisible={menuOpen} mobileButtonVisible={mobileButtonVisible}><Button href='#projects'>Projects</Button></ButtonContainer>
+        <ButtonContainer desktopButtonVisible={menuOpen} mobileButtonVisible={mobileButtonVisible}><Button href='#resume'>Resume</Button></ButtonContainer>
+        <ButtonContainer desktopButtonVisible={menuOpen} mobileButtonVisible={mobileButtonVisible}><Button href='#contact'>Contact Me</Button></ButtonContainer>
       </Container>
     </Navbar >
   )
@@ -57,7 +67,7 @@ overflow: hidden;
 @media screen and (max-width: 768px) {
   display: block;
   ${props => !props.slideDown ? 'height: 5rem;' : 'height: 22.5rem;'}
-  ${props => !props.slideDown && slideUpAnimation}
+  ${props => !props.slideDown && props.slideDown !== undefined && slideUpAnimation}
   ${props => props.slideDown && slideDownAnimation}
 }
 `
@@ -136,8 +146,11 @@ justify-content: space-around;
 `
 
 const ButtonContainer = styled.div`
-display: flex;
 align-items: center;
+display: ${props => !props.desktopButtonVisible ? 'none' : 'flex'};
+@media screen and (max-width: 768px) {
+  display: ${props => !props.mobileButtonVisible ? 'none' : 'flex'};
+}
 `
 
 export default Nav
