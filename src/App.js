@@ -11,7 +11,7 @@ function App() {
   return (
     <Container>
       <Nav />
-      <main className="pt-yellow">
+      <main>
         <Landing />
         <About />
         <Projects />
@@ -30,6 +30,7 @@ function App() {
 
 const Container = styled.div`
 min-height: 100vh;
+width: 100vw
 `
 
 const FooterContent = styled.div`

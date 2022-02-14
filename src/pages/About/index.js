@@ -51,7 +51,6 @@ grid-column: 2 / 5;
 `
 
 const FirstParagraph = styled.p`
-font-size: 1.5rem;
 background-color: black;
 color: ${colors.pink};
 margin: 0;
@@ -60,6 +59,10 @@ font-size: 2rem;
 line-height: 4rem;
 /* padding: 0 2rem 0 2rem; */
 width: 50vw;
+@media screen and (max-width: 768px) {
+  font-size: 1rem;
+  width: 100vw;
+}
 `
 
 const FirstImage = styled.div`
@@ -72,6 +75,9 @@ height: 50vh;
 const RowContainer = styled.div`
 display: grid;
 grid-template-columns: repeat(2, 50vw) fit-content(50vw);
+@media screen and (max-width: 768px) {
+  display: block;
+}
 `
 
 const SecondImage = styled(FirstImage)`
@@ -88,6 +94,9 @@ padding: 0 6rem;
 background-color: black;
 display: flex;
 align-items: center;
+@media screen and (max-width: 786px) {
+  padding: 0 1rem;
+}
 `
 
 const SecondParagraphContainer = styled(FirstParagraphContainer)`

@@ -43,6 +43,9 @@ font-family: 'Comforter', cursive;
 color: ${colors.whiteTransparent};
 font-size: 20rem;
 z-index: 1;
+@media screen and (max-width: 768px) {
+  font-size: 5rem;
+}
 `
 
 const ProjectLink = styled.a`

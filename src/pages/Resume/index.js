@@ -40,6 +40,9 @@ grid-template-columns: 50vw 50vw;
   position: absolute;
   filter: grayscale(100%);
 }
+@media screen and (max-width: 768px) {
+  display: block;
+}
 `
 
 const Title = styled.h1`
@@ -49,6 +52,9 @@ font-weight: 10;
 text-align: center;
 color: ${green};
 margin: 0;
+@media screen and (max-width: 768px) {
+  font-size: 3rem;
+}
 `
 
 const TitleContainer = styled.div`
@@ -95,6 +101,9 @@ position: relative;
 &:active {
   top: -0.5rem;
   text-shadow: 0 0.5rem ${pink};
+}
+@media screen and (max-width: 786px) {
+  font-size: 2rem;
 }
 `
 
