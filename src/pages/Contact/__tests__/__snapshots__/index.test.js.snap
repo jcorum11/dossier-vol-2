@@ -6,7 +6,7 @@ exports[`matches snapshot 1`] = `
     id="contact"
   >
     <h1
-      class="sc-bdvvtL eCmgPR"
+      class="sc-bdvvtL diZiHH"
       data-testid="contact"
     >
       CONTACT
@@ -25,7 +25,7 @@ exports[`matches snapshot 1`] = `
             href="href='https://www.linkedin.com/in/jacob-corum-full-stack-development/'"
           >
             <p
-              class="sc-iCfMLu bbEHI"
+              class="sc-iCfMLu hppyVX"
             >
               LinkedIn
             </p>
@@ -39,7 +39,7 @@ exports[`matches snapshot 1`] = `
             href="https://github.com/jcorum11"
           >
             <p
-              class="sc-iCfMLu bbEHI"
+              class="sc-iCfMLu hppyVX"
             >
               Github
             </p>
@@ -47,7 +47,7 @@ exports[`matches snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-jRQBWg cWAVor"
+        class="sc-jRQBWg edNkuc"
       >
         <a
           class="sc-gsDKAQ sc-dkPtRN fGmJbt iIDBAs"

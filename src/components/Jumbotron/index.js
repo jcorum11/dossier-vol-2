@@ -34,6 +34,9 @@ background-position: center;
 height: 100vh;
 width: 100vw;
 position: relative;
+@media screen and (max-width: 768px) {
+  height: 40vh;
+}
 `
 
 export default Jumbotron

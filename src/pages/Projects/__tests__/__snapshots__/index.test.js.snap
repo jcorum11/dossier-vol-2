@@ -7,7 +7,7 @@ exports[`matches snapshot 1`] = `
     id="projects"
   >
     <h1
-      class="sc-bdvvtL eCmgPR"
+      class="sc-bdvvtL diZiHH"
       data-testid="projects"
     >
       PROJECTS
@@ -17,7 +17,7 @@ exports[`matches snapshot 1`] = `
         class="sc-gsDKAQ dzGDQ"
       >
         <h1
-          class="sc-dkPtRN emjJLE"
+          class="sc-dkPtRN fySfYL"
         >
           Harpoon Mobile
         </h1>
@@ -40,7 +40,7 @@ exports[`matches snapshot 1`] = `
         class="sc-gsDKAQ dzGDQ"
       >
         <h1
-          class="sc-dkPtRN emjJLE"
+          class="sc-dkPtRN fySfYL"
         >
           Sploots!
         </h1>
@@ -63,7 +63,7 @@ exports[`matches snapshot 1`] = `
         class="sc-gsDKAQ dzGDQ"
       >
         <h1
-          class="sc-dkPtRN emjJLE"
+          class="sc-dkPtRN fySfYL"
         >
           Rolodeck
         </h1>
@@ -86,7 +86,7 @@ exports[`matches snapshot 1`] = `
         class="sc-gsDKAQ dzGDQ"
       >
         <h1
-          class="sc-dkPtRN emjJLE"
+          class="sc-dkPtRN fySfYL"
         >
           D&D Tracker
         </h1>
