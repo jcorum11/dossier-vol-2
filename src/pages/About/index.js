@@ -81,6 +81,9 @@ width: 50vw;
   width: 100vw;
   line-height: 3rem;
 }
+@media screen and (min-width: 1020px) and (max-width: 1440px) {
+  font-size: 1.25rem;
+}
 `
 
 const FirstImage = styled.div`

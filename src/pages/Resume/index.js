@@ -44,6 +44,9 @@ grid-template-columns: 50vw 50vw;
   display: block;
   height: 90vh;
 }
+@media screen and (min-width: 1024px) and (max-width: 1439) {
+  height: 75vh;
+}
 `
 
 const Title = styled.h1`
@@ -56,6 +59,9 @@ margin: 0;
 @media screen and (max-width: 768px) {
   font-size: 3rem;
 }
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  font-size: 6rem;
+}
 `
 
 const TitleContainer = styled.div`
@@ -66,6 +72,12 @@ align-items: center;
 @media screen and (max-width: 768px) {
   line-height: 4rem;
   padding: 2rem 4rem 0 4rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  padding: 2rem 8rem 0 8rem;
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  line-height: 8rem;
 }
 `
 
@@ -95,6 +107,9 @@ background-position: center;
   background-position: top;
   height: 20vh;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  height: 55vh;
+}
 `
 
 const DownloadLink = styled.a`
@@ -117,6 +132,9 @@ position: relative;
 @media screen and (max-width: 768px) {
   font-size: 2rem;
   line-height: 6rem;
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  font-size: 4rem;
 }
 `
 

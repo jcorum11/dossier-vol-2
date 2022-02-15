@@ -46,6 +46,9 @@ z-index: 1;
   font-size: 5rem;
   text-align: center;
 }
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  font-size: 10rem;
+}
 `
 
 const ProjectLink = styled.a`
@@ -70,7 +73,7 @@ cursor: pointer;
   top: -10.25rem;
   box-shadow: 0 0.25rem ${colors.blue};
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px), (min-width: 1020px) and (max-width: 1440px) {
   top: 0;
 }
 `
@@ -86,6 +89,9 @@ text-align: center;
   font-size: 1rem;
   margin: 1rem;
   line-height: 2rem;
+  top: 0;
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
   top: 0;
 }
 `

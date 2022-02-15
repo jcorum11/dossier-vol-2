@@ -79,6 +79,7 @@ text-decoration: none;
 color: ${colors.green};
 background-color: ${colors.pink};
 border-radius: 10px;
+white-space: nowrap;
 &:hover {
   top: -0.5rem;
   box-shadow: 0 0.5rem grey;
@@ -97,6 +98,9 @@ border-radius: 10px;
     top: 0rem;
     box-shadow: none;
   }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  width: 92%;
 }
 `
 

@@ -34,8 +34,11 @@ background-position: center;
 height: 100vh;
 width: 100vw;
 position: relative;
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px), (min-width: 1020px) and (max-width: 1440px) {
   height: 40vh;
+}
+@media screen and (min-width: 1439px) {
+  background-position: center top 30%;
 }
 `
 
