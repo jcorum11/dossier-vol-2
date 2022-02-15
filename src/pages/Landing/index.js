@@ -1,5 +1,7 @@
-import { Fragment } from 'react'
-import Jumbotron from '../../components/Jumbotron'
+import { Fragment, lazy } from 'react'
+
+const Jumbotron = lazy(() => import('../../components/Jumbotron'))
+
 const Landing = () => {
   return (
     <Fragment>

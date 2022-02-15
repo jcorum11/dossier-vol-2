@@ -1,7 +1,9 @@
+import { lazy } from 'react'
 import styled from 'styled-components'
 import { green, pink } from '../../variables'
 import backgroundImage from './assets/david-dvoracek-mwnBGQhka18-unsplash.jpg'
-import SectionTitle from '../../components/SectionTitle'
+
+const SectionTitle = lazy(() => import('../../components/SectionTitle'))
 
 const Contact = () => {
   return (
