@@ -1,4 +1,4 @@
-import { useState, Fragment } from 'react'
+import { useState } from 'react'
 import styled, { keyframes, css } from 'styled-components'
 import { IoMenu } from 'react-icons/io5'
 import { FaTimes } from 'react-icons/fa'
@@ -10,7 +10,7 @@ const Nav = () => {
   let timeoutId
   const delayedHideButtons = () => {
     setMenuOpen(false)
-    timeoutId = setTimeout(() => setMobileButtonVisible(false), 1000)
+    setTimeout(() => setMobileButtonVisible(false), 1000)
   }
   const showButtons = () => {
     setMenuOpen(true)

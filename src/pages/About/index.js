@@ -6,7 +6,7 @@ import secondImage from './assets/IMG_3175.jpeg'
 import SectionTitle from '../../components/SectionTitle'
 
 const About = () => {
-  const [mobileFormat, setMobileFormat] = useState(window.innerWidth <= 768 ? true : false)
+  const mobileFormat = window.innerWidth <= 768 ? true : false
   return (
     <Fragment>
       <Section id="about">
