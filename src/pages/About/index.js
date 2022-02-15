@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import styled from 'styled-components'
 import { colors } from '../../variables'
 import firstImage from './assets/IMG_1011.jpeg'

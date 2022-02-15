@@ -7,7 +7,6 @@ import { colors } from '../../variables'
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(undefined)
   const [mobileButtonVisible, setMobileButtonVisible] = useState(false)
-  let timeoutId
   const delayedHideButtons = () => {
     setMenuOpen(false)
     setTimeout(() => setMobileButtonVisible(false), 1000)
