@@ -25,7 +25,7 @@ exports[`matches snapshot 1`] = `
           class="sc-furwcr hfTekY"
         >
           <p
-            class="sc-hKwDye gZcaCT"
+            class="sc-hKwDye fXjaST"
           >
             I have worked to overcome obstacles to become a full stack developer graduating from University of Utah’s boot camp near the top of the class, earning me a full-stack developer certificate with a background in Industrial/Organizational Psychology.
           </p>
@@ -38,7 +38,7 @@ exports[`matches snapshot 1`] = `
           class="sc-furwcr sc-pVTFL hfTekY dhdyKd"
         >
           <p
-            class="sc-hKwDye sc-iCfMLu gZcaCT fAntMl"
+            class="sc-hKwDye sc-iCfMLu fXjaST fAntMl"
           >
             I have studied diligently to learn and implement React, Redux, and GraphQL. I implemented all three of these in a project called Rolodeck where I worked with a team and implemented GraphQL for the entire project, programmed a QR scanner in React, and implemented Redux for easily transferable data.
           </p>

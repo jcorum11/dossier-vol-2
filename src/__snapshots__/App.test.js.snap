@@ -34,7 +34,7 @@ exports[`matches snapshot 1`] = `
           class="sc-dlVxhl bVSUV"
         >
           <a
-            class="sc-bkkeKt jgApFq"
+            class="sc-bkkeKt buawDn"
             href="#about"
           >
             About Me
@@ -44,7 +44,7 @@ exports[`matches snapshot 1`] = `
           class="sc-dlVxhl bVSUV"
         >
           <a
-            class="sc-bkkeKt jgApFq"
+            class="sc-bkkeKt buawDn"
             href="#projects"
           >
             Projects
@@ -54,7 +54,7 @@ exports[`matches snapshot 1`] = `
           class="sc-dlVxhl bVSUV"
         >
           <a
-            class="sc-bkkeKt jgApFq"
+            class="sc-bkkeKt buawDn"
             href="#resume"
           >
             Resume
@@ -64,7 +64,7 @@ exports[`matches snapshot 1`] = `
           class="sc-dlVxhl bVSUV"
         >
           <a
-            class="sc-bkkeKt jgApFq"
+            class="sc-bkkeKt buawDn"
             href="#contact"
           >
             Contact Me
@@ -77,7 +77,7 @@ exports[`matches snapshot 1`] = `
         class="sc-jJoQJp kNveLH"
       >
         <div
-          class="sc-hiCibw itKqMc"
+          class="sc-hiCibw kTSFeo"
         />
       </div>
       <section
@@ -103,7 +103,7 @@ exports[`matches snapshot 1`] = `
               class="sc-furwcr hfTekY"
             >
               <p
-                class="sc-hKwDye gZcaCT"
+                class="sc-hKwDye fXjaST"
               >
                 I have worked to overcome obstacles to become a full stack developer graduating from University of Utah’s boot camp near the top of the class, earning me a full-stack developer certificate with a background in Industrial/Organizational Psychology.
               </p>
@@ -116,7 +116,7 @@ exports[`matches snapshot 1`] = `
               class="sc-furwcr sc-pVTFL hfTekY dhdyKd"
             >
               <p
-                class="sc-hKwDye sc-iCfMLu gZcaCT fAntMl"
+                class="sc-hKwDye sc-iCfMLu fXjaST fAntMl"
               >
                 I have studied diligently to learn and implement React, Redux, and GraphQL. I implemented all three of these in a project called Rolodeck where I worked with a team and implemented GraphQL for the entire project, programmed a QR scanner in React, and implemented Redux for easily transferable data.
               </p>
@@ -142,17 +142,17 @@ exports[`matches snapshot 1`] = `
             class="sc-kfPuZi dyrWf"
           >
             <h1
-              class="sc-fKVqWL gkfTRA"
+              class="sc-fKVqWL bxQIaB"
             >
               Harpoon Mobile
             </h1>
             <p
-              class="sc-iwjdpV dRKbxu"
+              class="sc-iwjdpV dhQbbY"
             >
               I really love baseball cards. Like... I really love them. I made an app in React Native for my friend as a kind of social media for baseball cards. This one doesnt have a link yet but I hope it will soon!
             </p>
             <a
-              class="sc-bBHxTw fYSGdx"
+              class="sc-bBHxTw dQgtZC"
               href=""
             >
               link
@@ -165,17 +165,17 @@ exports[`matches snapshot 1`] = `
             class="sc-kfPuZi fmQeVY"
           >
             <h1
-              class="sc-fKVqWL gkfTRA"
+              class="sc-fKVqWL bxQIaB"
             >
               Sploots!
             </h1>
             <p
-              class="sc-iwjdpV dRKbxu"
+              class="sc-iwjdpV dhQbbY"
             >
               This is another one that I did with a friend of mine. It too doesnt have a link because we are still working on it, but it is a website for people to sell dogs and pet services that has a really good UI.
             </p>
             <a
-              class="sc-bBHxTw fYSGdx"
+              class="sc-bBHxTw dQgtZC"
               href=""
             >
               link
@@ -188,17 +188,17 @@ exports[`matches snapshot 1`] = `
             class="sc-kfPuZi iNhtKo"
           >
             <h1
-              class="sc-fKVqWL gkfTRA"
+              class="sc-fKVqWL bxQIaB"
             >
               Rolodeck
             </h1>
             <p
-              class="sc-iwjdpV dRKbxu"
+              class="sc-iwjdpV dhQbbY"
             >
               I am really proud of this one. I got a group of friends together and we worked really hard on it. I really loved working with them. You should definitely check this one out.
             </p>
             <a
-              class="sc-bBHxTw fYSGdx"
+              class="sc-bBHxTw dQgtZC"
               href="https://obscure-reef-91673.herokuapp.com/"
             >
               link
@@ -211,17 +211,17 @@ exports[`matches snapshot 1`] = `
             class="sc-kfPuZi fLvkJm"
           >
             <h1
-              class="sc-fKVqWL gkfTRA"
+              class="sc-fKVqWL bxQIaB"
             >
               D&D Tracker
             </h1>
             <p
-              class="sc-iwjdpV dRKbxu"
+              class="sc-iwjdpV dhQbbY"
             >
               This was a really cool tracker that I did during bootcamp. Check it out!
             </p>
             <a
-              class="sc-bBHxTw fYSGdx"
+              class="sc-bBHxTw dQgtZC"
               href="https://johnnielsen1221.github.io/dd-initiative-tracker/"
             >
               link
@@ -239,13 +239,13 @@ exports[`matches snapshot 1`] = `
           RESUME
         </h1>
         <section
-          class="sc-llYSUQ boBVdb"
+          class="sc-llYSUQ ghPiuf"
         >
           <div
-            class="sc-giYglK fpYFVh"
+            class="sc-giYglK bByyZM"
           >
             <h1
-              class="sc-iJKOTD ljOqmQ"
+              class="sc-iJKOTD isoLfC"
             >
               WANT TO HIRE ME?
             </h1>
@@ -258,11 +258,11 @@ exports[`matches snapshot 1`] = `
               href="jacob-corum-resume-oct-2020.pdf"
             >
               <div
-                class="sc-bYoBSM iTcTAO"
+                class="sc-bYoBSM iACowS"
               />
             </a>
             <a
-              class="sc-kLwhqv jYHUBa"
+              class="sc-kLwhqv jhtLzq"
               download="jake-corums-resume"
               href="jacob-corum-resume-oct-2020.pdf"
             >

@@ -31,7 +31,7 @@ exports[`matches snapshot 1`] = `
         class="sc-jRQBWg eEZPIg"
       >
         <a
-          class="sc-gsDKAQ gRbJZt"
+          class="sc-gsDKAQ hVldvo"
           href="#about"
         >
           About Me
@@ -41,7 +41,7 @@ exports[`matches snapshot 1`] = `
         class="sc-jRQBWg eEZPIg"
       >
         <a
-          class="sc-gsDKAQ gRbJZt"
+          class="sc-gsDKAQ hVldvo"
           href="#projects"
         >
           Projects
@@ -51,7 +51,7 @@ exports[`matches snapshot 1`] = `
         class="sc-jRQBWg eEZPIg"
       >
         <a
-          class="sc-gsDKAQ gRbJZt"
+          class="sc-gsDKAQ hVldvo"
           href="#resume"
         >
           Resume
@@ -61,7 +61,7 @@ exports[`matches snapshot 1`] = `
         class="sc-jRQBWg eEZPIg"
       >
         <a
-          class="sc-gsDKAQ gRbJZt"
+          class="sc-gsDKAQ hVldvo"
           href="#contact"
         >
           Contact Me
