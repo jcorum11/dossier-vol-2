@@ -79,6 +79,9 @@ margin: 0 auto;
 text-align: center;
 font-size: 4rem;
 font-weight: lighter;
+@media screen and (max-width: 768px) {
+  font-size: 1rem;
+}
 `
 
 const LinkContainer = styled.div`
@@ -104,6 +107,9 @@ margin: 0;
 font-size: 4rem;
 color: ${green};
 font-family: 'Beth Ellen', cursive;
+@media screen and (max-width: 768px) {
+  font-size: 1rem;
+}
 `
 
 const SocialContainer = styled.div`

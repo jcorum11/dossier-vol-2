@@ -3,13 +3,13 @@
 exports[`matches snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-cCcXHH MYJzm"
+    class="sc-gWXbKe fhNkFD"
   >
     <nav
-      class="sc-fFeiMQ fqOZsQ"
+      class="sc-fFeiMQ dLYdCh"
     >
       <svg
-        class="sc-ieecCq dYmaeV"
+        class="sc-ieecCq gVFcKa"
         data-testid="nav-button-hamburger"
         fill="currentColor"
         height="1em"
@@ -28,22 +28,57 @@ exports[`matches snapshot 1`] = `
         />
       </svg>
       <div
-        class="sc-hGPBjI iHqAVy"
-      />
-    </nav>
-    <main
-      class="pt-yellow"
-    >
-      <div
-        class="sc-hiCibw hLsHNw"
+        class="sc-hGPBjI cazEdW"
       >
         <div
-          class="sc-jJoQJp kNveLH"
+          class="sc-dlVxhl bVSUV"
         >
-          <div
-            class="sc-gWXbKe kDNDBX"
-          />
+          <a
+            class="sc-bkkeKt jgApFq"
+            href="#about"
+          >
+            About Me
+          </a>
         </div>
+        <div
+          class="sc-dlVxhl bVSUV"
+        >
+          <a
+            class="sc-bkkeKt jgApFq"
+            href="#projects"
+          >
+            Projects
+          </a>
+        </div>
+        <div
+          class="sc-dlVxhl bVSUV"
+        >
+          <a
+            class="sc-bkkeKt jgApFq"
+            href="#resume"
+          >
+            Resume
+          </a>
+        </div>
+        <div
+          class="sc-dlVxhl bVSUV"
+        >
+          <a
+            class="sc-bkkeKt jgApFq"
+            href="#contact"
+          >
+            Contact Me
+          </a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div
+        class="sc-jJoQJp kNveLH"
+      >
+        <div
+          class="sc-hiCibw itKqMc"
+        />
       </div>
       <section
         class="sc-gsDKAQ icFUsL"
@@ -53,35 +88,35 @@ exports[`matches snapshot 1`] = `
           class="sc-dkPtRN eGNtso"
         >
           <h1
-            class="sc-bdvvtL eCmgPR"
+            class="sc-bdvvtL diZiHH"
             data-testid="about"
           >
             ABOUT
           </h1>
           <div
-            class="sc-jRQBWg zyyOv"
+            class="sc-jRQBWg pbwFr"
           >
             <div
               class="sc-eCImPb hCJQkq"
             />
             <div
-              class="sc-furwcr bTmVdy"
+              class="sc-furwcr hfTekY"
             >
               <p
-                class="sc-hKwDye eZtEyV"
+                class="sc-hKwDye gZcaCT"
               >
                 I have worked to overcome obstacles to become a full stack developer graduating from University of Utah’s boot camp near the top of the class, earning me a full-stack developer certificate with a background in Industrial/Organizational Psychology.
               </p>
             </div>
           </div>
           <div
-            class="sc-jRQBWg zyyOv"
+            class="sc-jRQBWg pbwFr"
           >
             <div
-              class="sc-furwcr sc-pVTFL bTmVdy dhdyKd"
+              class="sc-furwcr sc-pVTFL hfTekY dhdyKd"
             >
               <p
-                class="sc-hKwDye sc-iCfMLu eZtEyV fAntMl"
+                class="sc-hKwDye sc-iCfMLu gZcaCT fAntMl"
               >
                 I have studied diligently to learn and implement React, Redux, and GraphQL. I implemented all three of these in a project called Rolodeck where I worked with a team and implemented GraphQL for the entire project, programmed a QR scanner in React, and implemented Redux for easily transferable data.
               </p>
@@ -97,96 +132,96 @@ exports[`matches snapshot 1`] = `
         id="projects"
       >
         <h1
-          class="sc-bdvvtL eCmgPR"
+          class="sc-bdvvtL diZiHH"
           data-testid="projects"
         >
           PROJECTS
         </h1>
         <section>
           <div
-            class="sc-kfPuZi fmQeVY"
+            class="sc-kfPuZi dyrWf"
           >
             <h1
-              class="sc-fKVqWL iSPrLa"
+              class="sc-fKVqWL gkfTRA"
             >
               Harpoon Mobile
             </h1>
             <p
-              class="sc-iwjdpV hDrbfw"
+              class="sc-iwjdpV dRKbxu"
             >
               I really love baseball cards. Like... I really love them. I made an app in React Native for my friend as a kind of social media for baseball cards. This one doesnt have a link yet but I hope it will soon!
             </p>
             <a
-              class="sc-bBHxTw bNBKmd"
+              class="sc-bBHxTw fYSGdx"
               href=""
             >
               link
             </a>
           </div>
           <div
-            class="sc-cxpSdN ixCDcF"
+            class="sc-cxpSdN jbxMAY"
           />
           <div
             class="sc-kfPuZi fmQeVY"
           >
             <h1
-              class="sc-fKVqWL iSPrLa"
+              class="sc-fKVqWL gkfTRA"
             >
               Sploots!
             </h1>
             <p
-              class="sc-iwjdpV hDrbfw"
+              class="sc-iwjdpV dRKbxu"
             >
               This is another one that I did with a friend of mine. It too doesnt have a link because we are still working on it, but it is a website for people to sell dogs and pet services that has a really good UI.
             </p>
             <a
-              class="sc-bBHxTw bNBKmd"
+              class="sc-bBHxTw fYSGdx"
               href=""
             >
               link
             </a>
           </div>
           <div
-            class="sc-cxpSdN ixCDcF"
+            class="sc-cxpSdN jbxMAY"
           />
           <div
-            class="sc-kfPuZi fmQeVY"
+            class="sc-kfPuZi iNhtKo"
           >
             <h1
-              class="sc-fKVqWL iSPrLa"
+              class="sc-fKVqWL gkfTRA"
             >
               Rolodeck
             </h1>
             <p
-              class="sc-iwjdpV hDrbfw"
+              class="sc-iwjdpV dRKbxu"
             >
               I am really proud of this one. I got a group of friends together and we worked really hard on it. I really loved working with them. You should definitely check this one out.
             </p>
             <a
-              class="sc-bBHxTw bNBKmd"
+              class="sc-bBHxTw fYSGdx"
               href="https://obscure-reef-91673.herokuapp.com/"
             >
               link
             </a>
           </div>
           <div
-            class="sc-cxpSdN ixCDcF"
+            class="sc-cxpSdN jbxMAY"
           />
           <div
-            class="sc-kfPuZi fmQeVY"
+            class="sc-kfPuZi fLvkJm"
           >
             <h1
-              class="sc-fKVqWL iSPrLa"
+              class="sc-fKVqWL gkfTRA"
             >
               D&D Tracker
             </h1>
             <p
-              class="sc-iwjdpV hDrbfw"
+              class="sc-iwjdpV dRKbxu"
             >
               This was a really cool tracker that I did during bootcamp. Check it out!
             </p>
             <a
-              class="sc-bBHxTw bNBKmd"
+              class="sc-bBHxTw fYSGdx"
               href="https://johnnielsen1221.github.io/dd-initiative-tracker/"
             >
               link
@@ -198,19 +233,19 @@ exports[`matches snapshot 1`] = `
         id="resume"
       >
         <h1
-          class="sc-bdvvtL eCmgPR"
+          class="sc-bdvvtL diZiHH"
           data-testid="resume"
         >
           RESUME
         </h1>
         <section
-          class="sc-llYSUQ iCXyUU"
+          class="sc-llYSUQ boBVdb"
         >
           <div
-            class="sc-giYglK hDShSO"
+            class="sc-giYglK fpYFVh"
           >
             <h1
-              class="sc-iJKOTD eemcLp"
+              class="sc-iJKOTD ljOqmQ"
             >
               WANT TO HIRE ME?
             </h1>
@@ -219,15 +254,15 @@ exports[`matches snapshot 1`] = `
             class="sc-ikJyIC kWUqIp"
           >
             <a
-              class="sc-ezbkAF uWEFV"
+              class="sc-ezbkAF gKUWtO"
               href="jacob-corum-resume-oct-2020.pdf"
             >
               <div
-                class="sc-bYoBSM jSWIju"
+                class="sc-bYoBSM iTcTAO"
               />
             </a>
             <a
-              class="sc-kLwhqv bzWqEx"
+              class="sc-kLwhqv jYHUBa"
               download="jake-corums-resume"
               href="jacob-corum-resume-oct-2020.pdf"
             >
@@ -240,7 +275,7 @@ exports[`matches snapshot 1`] = `
         id="contact"
       >
         <h1
-          class="sc-bdvvtL eCmgPR"
+          class="sc-bdvvtL diZiHH"
           data-testid="contact"
         >
           CONTACT
@@ -259,7 +294,7 @@ exports[`matches snapshot 1`] = `
                 href="href='https://www.linkedin.com/in/jacob-corum-full-stack-development/'"
               >
                 <p
-                  class="sc-ksdxgE jsgTga"
+                  class="sc-ksdxgE jtNcut"
                 >
                   LinkedIn
                 </p>
@@ -273,7 +308,7 @@ exports[`matches snapshot 1`] = `
                 href="https://github.com/jcorum11"
               >
                 <p
-                  class="sc-ksdxgE jsgTga"
+                  class="sc-ksdxgE jtNcut"
                 >
                   Github
                 </p>
@@ -281,7 +316,7 @@ exports[`matches snapshot 1`] = `
             </div>
           </div>
           <div
-            class="sc-egiyK gkhPaR"
+            class="sc-egiyK bgdJde"
           >
             <a
               class="sc-jrQzAO sc-kDTinF cBxVKb eKdzuN"
@@ -301,10 +336,10 @@ exports[`matches snapshot 1`] = `
     </main>
     <footer>
       <div
-        class="sc-cidDSM fhIvLM"
+        class="sc-cCcXHH ivEnMn"
       >
         <p
-          class="sc-jcFjpl kPLGLh"
+          class="sc-cidDSM jxgprc"
         >
           Designed by Kyanna Corum 
           <span
@@ -315,7 +350,7 @@ exports[`matches snapshot 1`] = `
           </span>
         </p>
         <p
-          class="sc-jcFjpl kPLGLh"
+          class="sc-cidDSM jxgprc"
         >
           Developed by Jake 
           <span

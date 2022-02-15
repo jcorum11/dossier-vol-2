@@ -4,9 +4,7 @@ import nameImage from './assets/Untitled_Artwork.png'
 
 function Jumbotron() {
   return (
-    <Container>
-      <Hero><Name></Name></Hero>
-    </Container>
+    <Hero><Name></Name></Hero>
   )
 }
 
@@ -29,17 +27,16 @@ position: relative;
 }
 `
 
-const Container = styled.div`
-grid-column: 3;
-`
-
 const Name = styled.div`
 background-image: url(${nameImage});
 background-size: cover;
 background-position: center;
 height: 100vh;
-width: 130vw;
+width: 100vw;
 position: relative;
+@media screen and (max-width: 768px) {
+  height: 40vh;
+}
 `
 
 export default Jumbotron

@@ -6,19 +6,19 @@ exports[`matches snapshot 1`] = `
     id="resume"
   >
     <h1
-      class="sc-bdvvtL eCmgPR"
+      class="sc-bdvvtL diZiHH"
       data-testid="resume"
     >
       RESUME
     </h1>
     <section
-      class="sc-gsDKAQ hUexUB"
+      class="sc-gsDKAQ jIHPSi"
     >
       <div
-        class="sc-hKwDye ejxgWt"
+        class="sc-hKwDye iRDTiO"
       >
         <h1
-          class="sc-dkPtRN iWIqJx"
+          class="sc-dkPtRN qTVRU"
         >
           WANT TO HIRE ME?
         </h1>
@@ -27,15 +27,15 @@ exports[`matches snapshot 1`] = `
         class="sc-iCfMLu fGzxLG"
       >
         <a
-          class="sc-eCImPb gXOPJo"
+          class="sc-eCImPb bcXcjX"
           href="jacob-corum-resume-oct-2020.pdf"
         >
           <div
-            class="sc-jRQBWg kSpkjh"
+            class="sc-jRQBWg SObut"
           />
         </a>
         <a
-          class="sc-gKclnd jOiNDf"
+          class="sc-gKclnd YypoI"
           download="jake-corums-resume"
           href="jacob-corum-resume-oct-2020.pdf"
         >

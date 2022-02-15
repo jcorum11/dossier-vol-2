@@ -3,21 +3,21 @@
 exports[`matches snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bdvvtL bbRqhV"
+    class="sc-bdvvtL kMwyan"
   >
     <h1
-      class="sc-gsDKAQ dqqyo"
+      class="sc-gsDKAQ cygmm"
     >
-      test
+      D&D Tracker
     </h1>
     <p
-      class="sc-hKwDye ekIOdu"
+      class="sc-hKwDye kQICoY"
     >
-      some testy description
+      This was a really cool tracker that I did during bootcamp. Check it out!
     </p>
     <a
-      class="sc-dkPtRN kQiOtB"
-      href="https://test.com"
+      class="sc-dkPtRN dUMFbt"
+      href="https://johnnielsen1221.github.io/dd-initiative-tracker/"
     >
       link
     </a>

@@ -3,10 +3,10 @@
 exports[`matches snapshot 1`] = `
 <DocumentFragment>
   <nav
-    class="sc-bdvvtL eoiuGm"
+    class="sc-bdvvtL dPHOVD"
   >
     <svg
-      class="sc-dkPtRN hBlkKG"
+      class="sc-dkPtRN klpcuV"
       data-testid="nav-button-hamburger"
       fill="currentColor"
       height="1em"
@@ -25,8 +25,49 @@ exports[`matches snapshot 1`] = `
       />
     </svg>
     <div
-      class="sc-eCImPb bVRtTw"
-    />
+      class="sc-eCImPb gdsFKc"
+    >
+      <div
+        class="sc-jRQBWg eEZPIg"
+      >
+        <a
+          class="sc-gsDKAQ gRbJZt"
+          href="#about"
+        >
+          About Me
+        </a>
+      </div>
+      <div
+        class="sc-jRQBWg eEZPIg"
+      >
+        <a
+          class="sc-gsDKAQ gRbJZt"
+          href="#projects"
+        >
+          Projects
+        </a>
+      </div>
+      <div
+        class="sc-jRQBWg eEZPIg"
+      >
+        <a
+          class="sc-gsDKAQ gRbJZt"
+          href="#resume"
+        >
+          Resume
+        </a>
+      </div>
+      <div
+        class="sc-jRQBWg eEZPIg"
+      >
+        <a
+          class="sc-gsDKAQ gRbJZt"
+          href="#contact"
+        >
+          Contact Me
+        </a>
+      </div>
+    </div>
   </nav>
 </DocumentFragment>
 `;

@@ -40,6 +40,10 @@ grid-template-columns: 50vw 50vw;
   position: absolute;
   filter: grayscale(100%);
 }
+@media screen and (max-width: 768px) {
+  display: block;
+  height: 90vh;
+}
 `
 
 const Title = styled.h1`
@@ -49,6 +53,9 @@ font-weight: 10;
 text-align: center;
 color: ${green};
 margin: 0;
+@media screen and (max-width: 768px) {
+  font-size: 3rem;
+}
 `
 
 const TitleContainer = styled.div`
@@ -56,19 +63,26 @@ padding: 0 3rem;
 line-height: 17rem;
 display: flex;
 align-items: center;
+@media screen and (max-width: 768px) {
+  line-height: 4rem;
+  padding: 2rem 4rem 0 4rem;
+}
 `
 
 const ResumeLink = styled.a`
 margin: 2rem;
+@media screen and (max-width: 768px) {
+  height: 10rem;
+}
 `
 
 const ResumeImage = styled.div`
-height: 75%;
+height: 75vh;
 width: 100%;
 position: relative;
 background-image: url(${resumeImage});
 background-size: cover;
-background-position: center 1;
+background-position: center;
 &:hover {
   top: -1rem;
   box-shadow: 0 1rem ${pink}
@@ -76,6 +90,10 @@ background-position: center 1;
 &:active {
   top: 0.5rem;
   box-shadow: 0 0.5rem ${pink}
+}
+@media screen and (max-width: 768px) {
+  background-position: top;
+  height: 20vh;
 }
 `
 
@@ -95,6 +113,10 @@ position: relative;
 &:active {
   top: -0.5rem;
   text-shadow: 0 0.5rem ${pink};
+}
+@media screen and (max-width: 768px) {
+  font-size: 2rem;
+  line-height: 6rem;
 }
 `
 
