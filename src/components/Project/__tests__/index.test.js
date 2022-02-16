@@ -1,6 +1,6 @@
 import { render, cleanup } from '@testing-library/react'
 import Project from '..'
-import dndImage from '../../../pages/Projects/assets/zoe-d3Rxton7VRY-unsplash.jpg'
+import dndImage from '../../../pages/Projects/assets/zoe-d3Rxton7VRY-unsplash.webp'
 
 afterEach(cleanup)
 
