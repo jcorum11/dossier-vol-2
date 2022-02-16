@@ -1,16 +1,15 @@
 import styled from 'styled-components'
-import rolodeckBackground from './mick-haupt-OQrZQ80eNM4-unsplash.jpg'
 import { colors } from '../../variables'
 import { Fragment } from 'react'
 
-const Project = ({ title, description, href, first = false }) => {
+const Project = ({ projectDetails, first = false }) => {
   return (
     <Fragment>
       {!first && <Spacer />}
-      <ProjectContainer>
-        <ProjectTitle>{title}</ProjectTitle>
-        <ProjectDescription>{description}</ProjectDescription>
-        <ProjectLink href={href}>link</ProjectLink>
+      <ProjectContainer image={projectDetails.img}>
+        <ProjectTitle>{projectDetails.title}</ProjectTitle>
+        <ProjectDescription>{projectDetails.description}</ProjectDescription>
+        <ProjectLink href={projectDetails.href}>link</ProjectLink>
       </ProjectContainer>
     </Fragment>
   )
@@ -28,7 +27,7 @@ align-items: center;
   content: '';
   width: 100%;
   height: 100%;
-  background-image: url(${rolodeckBackground});
+  background-image: url(${props => props.image});
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -43,6 +42,13 @@ font-family: 'Comforter', cursive;
 color: ${colors.whiteTransparent};
 font-size: 20rem;
 z-index: 1;
+@media screen and (max-width: 768px) {
+  font-size: 5rem;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  font-size: 10rem;
+}
 `
 
 const ProjectLink = styled.a`
@@ -67,6 +73,9 @@ cursor: pointer;
   top: -10.25rem;
   box-shadow: 0 0.25rem ${colors.blue};
 }
+@media screen and (max-width: 768px), (min-width: 1020px) and (max-width: 1440px) {
+  top: 0;
+}
 `
 
 const ProjectDescription = styled.p`
@@ -76,11 +85,23 @@ font-size: 2rem;
 margin: 0 4rem 2rem 4rem;
 top: -10rem;
 text-align: center;
+@media screen and (max-width: 768px) {
+  font-size: 1rem;
+  margin: 1rem;
+  line-height: 2rem;
+  top: 0;
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  top: 0;
+}
 `
 
 const Spacer = styled.div`
 height: 10rem;
-background-color: ${colors.blue}
+background-color: ${colors.blue};
+@media screen and (max-width: 768px) {
+  height: 3rem;
+}
 `
 
 export default Project

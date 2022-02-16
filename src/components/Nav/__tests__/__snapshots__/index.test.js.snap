@@ -1,16 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav component matches snapshot 1`] = `
+exports[`matches snapshot 1`] = `
 <DocumentFragment>
   <nav
-    class="sc-bdvvtL hBpKVe"
+    class="sc-bdvvtL dPHOVD"
   >
     <svg
+      class="sc-dkPtRN klpcuV"
+      data-testid="nav-button-hamburger"
       fill="currentColor"
       height="1em"
       stroke="currentColor"
       stroke-width="0"
-      style="color: rgb(188, 76, 132); font-size: 4rem; cursor: pointer;"
       viewBox="0 0 512 512"
       width="1em"
       xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +24,50 @@ exports[`Nav component matches snapshot 1`] = `
         stroke-width="48"
       />
     </svg>
-    <div />
+    <div
+      class="sc-eCImPb gdsFKc"
+    >
+      <div
+        class="sc-jRQBWg eEZPIg"
+      >
+        <a
+          class="sc-gsDKAQ hVldvo"
+          href="#about"
+        >
+          About Me
+        </a>
+      </div>
+      <div
+        class="sc-jRQBWg eEZPIg"
+      >
+        <a
+          class="sc-gsDKAQ hVldvo"
+          href="#projects"
+        >
+          Projects
+        </a>
+      </div>
+      <div
+        class="sc-jRQBWg eEZPIg"
+      >
+        <a
+          class="sc-gsDKAQ hVldvo"
+          href="#resume"
+        >
+          Resume
+        </a>
+      </div>
+      <div
+        class="sc-jRQBWg eEZPIg"
+      >
+        <a
+          class="sc-gsDKAQ hVldvo"
+          href="#contact"
+        >
+          Contact Me
+        </a>
+      </div>
+    </div>
   </nav>
 </DocumentFragment>
 `;

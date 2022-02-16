@@ -1,22 +1,19 @@
-import React from "react";
-import Contact from "..";
-import { render, cleanup } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect";
+import { Suspense } from "react"
+import Contact from ".."
+import { render, cleanup } from "@testing-library/react"
+import "@testing-library/jest-dom/extend-expect"
 
-afterEach(cleanup);
+afterEach(cleanup)
 
-describe("Contact component", () => {
-  it("renders", () => {
-    render(<Contact />);
-  });
+it("renders", async () => {
+  render(
+    <Suspense fallback={<div>Loading...</div>}>
+      <Contact />
+    </Suspense>
+  )
+})
 
-  it("matches snapshot", () => {
-    const { asFragment } = render(<Contact />);
-    expect(asFragment()).toMatchSnapshot();
-  });
-});
-
-describe("link is correct", () => {
-  const { getByTestId } = render(<Contact />);
-  expect(getByTestId("contact")).toHaveTextContent("Contact Me");
-});
+it("matches snapshot", async () => {
+  const { asFragment } = render(<Contact />)
+  expect(asFragment()).toMatchSnapshot()
+})

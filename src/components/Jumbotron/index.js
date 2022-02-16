@@ -1,12 +1,10 @@
 import styled from 'styled-components'
-import backgroundImage from './solen-feyissa-rK2bkFf6KJ8-unsplash.jpg'
-import nameImage from './Untitled_Artwork.png'
+import backgroundImage from './assets/solen-feyissa-rK2bkFf6KJ8-unsplash.webp'
+import nameImage from './assets/Untitled_Artwork.webp'
 
 function Jumbotron() {
   return (
-    <Container>
-      <Hero><Name></Name></Hero>
-    </Container>
+    <Hero><Name></Name></Hero>
   )
 }
 
@@ -29,18 +27,19 @@ position: relative;
 }
 `
 
-const Container = styled.div`
-grid-column: 3;
-scroll-snap-align: start;
-`
-
 const Name = styled.div`
 background-image: url(${nameImage});
 background-size: cover;
 background-position: center;
 height: 100vh;
-width: 130vw;
+width: 100vw;
 position: relative;
+@media screen and (max-width: 768px), (min-width: 1020px) and (max-width: 1440px) {
+  height: 40vh;
+}
+@media screen and (min-width: 1439px) {
+  background-position: center top 30%;
+}
 `
 
 export default Jumbotron

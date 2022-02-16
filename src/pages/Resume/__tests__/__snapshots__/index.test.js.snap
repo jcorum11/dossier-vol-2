@@ -1,39 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Resume component matches snapshot 1`] = `
+exports[`matches snapshot 1`] = `
 <DocumentFragment>
-  <section>
+  <section
+    id="resume"
+  >
     <h1
-      class="sc-bdvvtL eCmgPR"
+      class="sc-iCfMLu lgJsQl"
       data-testid="resume"
     >
       RESUME
     </h1>
     <section
-      class="sc-gsDKAQ hUexUB"
+      class="sc-bdvvtL cqWuSO"
     >
       <div
-        class="sc-hKwDye ejxgWt"
+        class="sc-dkPtRN fNARxg"
       >
         <h1
-          class="sc-dkPtRN iWIqJx"
+          class="sc-gsDKAQ gGQwaS"
         >
           WANT TO HIRE ME?
         </h1>
       </div>
       <div
-        class="sc-iCfMLu fGzxLG"
+        class="sc-gKclnd dPktXb"
       >
         <a
-          class="sc-eCImPb gXOPJo"
+          class="sc-hKwDye egauSP"
           href="jacob-corum-resume-oct-2020.pdf"
         >
           <div
-            class="sc-jRQBWg kSpkjh"
+            class="sc-eCImPb fiYrdz"
           />
         </a>
         <a
-          class="sc-gKclnd jOiNDf"
+          class="sc-jRQBWg lljavS"
           download="jake-corums-resume"
           href="jacob-corum-resume-oct-2020.pdf"
         >

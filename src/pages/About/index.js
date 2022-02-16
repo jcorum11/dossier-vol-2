@@ -1,14 +1,16 @@
-import { Fragment } from 'react'
+import { Fragment, lazy } from 'react'
 import styled from 'styled-components'
 import { colors } from '../../variables'
-import firstImage from './IMG_1011.jpeg'
-import secondImage from './IMG_3175.jpeg'
-import SectionTitle from '../../components/SectionTitle'
+import firstImage from './assets/IMG_1011.webp'
+import secondImage from './assets/IMG_3175.webp'
 
-const About = ({ currentSection, currentSectionOption }) => {
+const SectionTitle = lazy(() => import('../../components/SectionTitle'))
+
+const About = () => {
+  const mobileFormat = window.innerWidth <= 768 ? true : false
   return (
     <Fragment>
-      <Section id="about" ref={currentSectionOption === 'about' ? currentSection : null}>
+      <Section id="about">
         <Container>
           <SectionTitle name='about' />
           <RowContainer>
@@ -23,16 +25,33 @@ const About = ({ currentSection, currentSectionOption }) => {
             </FirstParagraphContainer>
           </RowContainer>
           <RowContainer>
-            <SecondParagraphContainer>
-              <SecondParagraph>
-                I have studied diligently to
-                learn and implement React, Redux, and GraphQL. I implemented all three
-                of these in a project called Rolodeck where I worked with a team and
-                implemented GraphQL for the entire project, programmed a QR scanner in
-                React, and implemented Redux for easily transferable data.
-              </SecondParagraph>
-            </SecondParagraphContainer>
-            <SecondImage></SecondImage>
+            {!mobileFormat ? (
+              <Fragment>
+                <SecondParagraphContainer>
+                  <SecondParagraph>
+                    I have studied diligently to
+                    learn and implement React, Redux, and GraphQL. I implemented all three
+                    of these in a project called Rolodeck where I worked with a team and
+                    implemented GraphQL for the entire project, programmed a QR scanner in
+                    React, and implemented Redux for easily transferable data.
+                  </SecondParagraph>
+                </SecondParagraphContainer>
+                <SecondImage></SecondImage>
+              </Fragment>
+            ) : (
+              <Fragment>
+                <SecondImage></SecondImage>
+                <SecondParagraphContainer>
+                  <SecondParagraph>
+                    I have studied diligently to
+                    learn and implement React, Redux, and GraphQL. I implemented all three
+                    of these in a project called Rolodeck where I worked with a team and
+                    implemented GraphQL for the entire project, programmed a QR scanner in
+                    React, and implemented Redux for easily transferable data.
+                  </SecondParagraph>
+                </SecondParagraphContainer>
+              </Fragment>
+            )}
           </RowContainer>
         </Container>
       </Section>
@@ -43,7 +62,6 @@ const About = ({ currentSection, currentSectionOption }) => {
 const Section = styled.section`
 grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(2, auto);
-scroll-snap-align: start;
 `
 
 const Container = styled.div`
@@ -52,15 +70,21 @@ grid-column: 2 / 5;
 `
 
 const FirstParagraph = styled.p`
-font-size: 1.5rem;
 background-color: black;
 color: ${colors.pink};
 margin: 0;
 text-align: center;
 font-size: 2rem;
 line-height: 4rem;
-/* padding: 0 2rem 0 2rem; */
 width: 50vw;
+@media screen and (max-width: 768px) {
+  font-size: 1rem;
+  width: 100vw;
+  line-height: 3rem;
+}
+@media screen and (min-width: 1020px) and (max-width: 1440px) {
+  font-size: 1.25rem;
+}
 `
 
 const FirstImage = styled.div`
@@ -73,6 +97,9 @@ height: 50vh;
 const RowContainer = styled.div`
 display: grid;
 grid-template-columns: repeat(2, 50vw) fit-content(50vw);
+@media screen and (max-width: 768px) {
+  display: block;
+}
 `
 
 const SecondImage = styled(FirstImage)`
@@ -89,6 +116,10 @@ padding: 0 6rem;
 background-color: black;
 display: flex;
 align-items: center;
+@media screen and (max-width: 786px) {
+  padding: 0 1rem;
+  height: 50vh;
+}
 `
 
 const SecondParagraphContainer = styled(FirstParagraphContainer)`

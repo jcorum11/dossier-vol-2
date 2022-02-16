@@ -13,7 +13,10 @@ text-align: center;
 font-size: 10rem;
 color: ${colors.pink};
 background-color: ${colors.blue};
-letter-spacing: 3rem;
+letter-spacing: 1rem;
+@media screen and (max-width: 786px) {
+  font-size: 2rem;
+}
 `
 
 export default SectionTitle

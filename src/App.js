@@ -1,41 +1,25 @@
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Nav from "./components/Nav";
-import Projects from "./pages/Projects";
-import Resume from "./pages/Resume";
+import { lazy } from 'react'
 import styled from 'styled-components';
-import Landing from './pages/Landing'
 import { pink, blue } from './variables'
-import { useEffect, useRef, useState } from 'react'
+
+const About = lazy(() => import('./pages/About'))
+const Contact = lazy(() => import('./pages/Contact'))
+const Projects = lazy(() => import('./pages/Projects'))
+const Resume = lazy(() => import('./pages/Resume'))
+const Nav = lazy(() => import('./components/Nav'))
+const Landing = lazy(() => import('./pages/Landing'))
 
 function App() {
-  const [currentSectionOption, setCurrentSectionOption] = useState('landing')
-  const sectionOptions = ['landing', 'about', 'projects', 'resume', 'contact']
-  let sectionOptionIndex = 0
-  const currentSection = useRef(null)
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll)
-  }, [])
-  const handleScroll = () => {
-    if (currentSectionOption === currentSectionOption[currentSectionOption.length - 1]) {
-      sectionOptionIndex = 0
-      setCurrentSectionOption('landing')
-    } else {
-      sectionOptionIndex++
-      setCurrentSectionOption(sectionOptions[sectionOptionIndex])
-    }
-    currentSection.current.scrollIntoView({behavior: 'smooth'})
-  }
   return (
     <Container>
       <Nav />
-      <Body>
+      <main>
         <Landing />
-        <About currentSection={currentSection} currentSectionOption={currentSectionOption} />
+        <About />
         <Projects />
         <Resume />
         <Contact />
-      </Body>
+      </main>
       <footer>
         <FooterContent>
           <Paragraph>Designed by Kyanna Corum <span role='img' aria-label='heart'>❤️ </span></Paragraph>
@@ -48,6 +32,7 @@ function App() {
 
 const Container = styled.div`
 min-height: 100vh;
+width: 100vw
 `
 
 const FooterContent = styled.div`
@@ -59,10 +44,6 @@ padding: 1rem;
 
 const Paragraph = styled.p`
 margin: 0;
-`
-
-const Body = styled.section`
-scroll-snap-type: y mandatory;
 `
 
 export default App;

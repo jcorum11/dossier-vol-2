@@ -1,24 +1,21 @@
-import React from "react";
+import { Suspense } from "react";
 import { render, cleanup } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import Projects from "..";
 
 afterEach(cleanup);
 
-describe("Projects component", () => {
-  it("renders", () => {
-    render(<Projects />);
-  });
-
-  it("matches snapshot", () => {
-    const { asFragment } = render(<Projects />);
-    expect(asFragment()).toMatchSnapshot();
-  });
+it("renders", async () => {
+  render(
+  <Suspense fallback={<div>Loading...</div>}>
+    <Projects />
+  </Suspense>
+  );
 });
 
-describe("inserts header correctly", () => {
-  it("says 'Projects' at the top", () => {
-    const { getByTestId } = render(<Projects />);
-    expect(getByTestId("project-title")).toHaveTextContent("Projects");
-  });
+it("matches snapshot", async () => {
+  const { asFragment } = render(<Projects />);
+  expect(asFragment()).toMatchSnapshot();
 });
+
+  // data validation

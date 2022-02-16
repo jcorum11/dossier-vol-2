@@ -1,8 +1,21 @@
-import { render, screen } from './test-utils';
-import App from './App';
+import { render, cleanup } from '@testing-library/react'
+import {lazy, Suspense} from 'react'
+import App from './App'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+afterEach(cleanup)
+
+it('renders', async () => {
+  render(
+  <Suspense fallback={<div>loading...</div>}>
+    <App />
+  </Suspense>
+  )
+})
+
+it('matches snapshot', async () => {
+  const { asFragment } = render(
+  <Suspense fallback={<div>loading...</div>}>
+    <App />
+  </Suspense>)
+  expect(asFragment()).toMatchSnapshot()
+})

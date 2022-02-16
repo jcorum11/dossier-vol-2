@@ -1,79 +1,68 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Contact component matches snapshot 1`] = `
+exports[`matches snapshot 1`] = `
 <DocumentFragment>
   <section
-    id="contact-form"
+    id="contact"
   >
-    <div
-      class="container"
+    <h1
+      class="sc-pVTFL jVErxx"
+      data-testid="contact"
     >
-      <h1
-        class="display-1 text-center"
-        data-testid="contact"
+      CONTACT
+    </h1>
+    <section
+      class="sc-hKwDye eFSImg"
+    >
+      <div
+        class="sc-iCfMLu dwrGUX"
       >
-        Contact Me
-      </h1>
-      <form>
         <div
-          class="form-group"
+          class="sc-jRQBWg ecueAo"
         >
-          <label
-            for="name"
+          <a
+            class="sc-furwcr jhtxSd"
+            href="href='https://www.linkedin.com/in/jacob-corum-full-stack-development/'"
           >
-            Name
-          </label>
-          <input
-            class="form-control"
-            id="nameInput"
-            name="name"
-            placeholder="James Halliday"
-            type="text"
-            value=""
-          />
+            <p
+              class="sc-gKclnd eSksjy"
+            >
+              LinkedIn
+            </p>
+          </a>
         </div>
         <div
-          class="form-group"
+          class="sc-jRQBWg ecueAo"
         >
-          <label
-            for="exampleInputEmail1"
+          <a
+            class="sc-furwcr jhtxSd"
+            href="https://github.com/jcorum11"
           >
-            Email address
-          </label>
-          <input
-            aria-describedby="emailHelp"
-            class="form-control"
-            id="exampleInputEmail1"
-            name="email"
-            placeholder="anorak@oasis.com"
-            type="email"
-            value=""
-          />
+            <p
+              class="sc-gKclnd eSksjy"
+            >
+              Github
+            </p>
+          </a>
         </div>
-        <div
-          class="form-group"
+      </div>
+      <div
+        class="sc-eCImPb iBmshn"
+      >
+        <a
+          class="sc-bdvvtL sc-gsDKAQ lcZqRM YHamg"
+          href="mailto: jacob.w.corum@gmail.com"
         >
-          <label
-            for="exampleFormControlTextarea1"
-          >
-            Message
-          </label>
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            name="message"
-            placeholder="“I didn't think anyone would anticipate this move, because it was so clearly insane.”"
-            rows="3"
-          />
-        </div>
-        <button
-          class="btn"
-          type="submit"
+          jacob.w.corum@gmail.com
+        </a>
+        <a
+          class="sc-bdvvtL sc-dkPtRN lcZqRM iIDBAs"
+          href="tel: 801-814-3191"
         >
-          Submit
-        </button>
-      </form>
-    </div>
+          801-814-3191
+        </a>
+      </div>
+    </section>
   </section>
 </DocumentFragment>
 `;

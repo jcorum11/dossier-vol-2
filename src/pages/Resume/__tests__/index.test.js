@@ -1,24 +1,19 @@
-import React from "react";
-import { render, cleanup } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect";
-import Resume from "..";
+import { Suspense } from "react"
+import { render, cleanup } from "@testing-library/react"
+import "@testing-library/jest-dom/extend-expect"
+import Resume from ".."
 
-afterEach(cleanup);
+afterEach(cleanup)
 
-describe("Resume component", () => {
-  it("renders", () => {
-    render(<Resume />);
-  });
+it("renders", async () => {
+  render(
+  <Suspense fallback={<div>Loading...</div>}>
+    <Resume />
+  </Suspense>
+  )
+})
 
-  it("matches snapshot", () => {
-    const { asFragment } = render(<Resume />);
-    expect(asFragment()).toMatchSnapshot();
-  });
-});
-
-describe("inserts header correctly", () => {
-  it("says 'Resume' at the top", () => {
-    const { getByTestId } = render(<Resume />);
-    expect(getByTestId("resume-title")).toHaveTextContent("Resume");
-  });
-});
+it("matches snapshot", async () => {
+  const { asFragment } = render(<Resume />)
+  expect(asFragment()).toMatchSnapshot()
+})
