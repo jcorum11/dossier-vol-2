@@ -1,8 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import { store } from './store'
-import { Provider } from 'react-redux'
+import React, { Suspense } from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 import { createGlobalStyle } from 'styled-components'
 import * as Sentry from '@sentry/react'
 import { BrowserTracing } from '@sentry/tracing'
@@ -15,7 +13,7 @@ Sentry.init({
   // of transactions for performance monitoring.
   // We recommend adjusting this value in production
   tracesSampleRate: 1.0,
-});
+})
 
 
 const GlobalStyle = createGlobalStyle`
@@ -30,12 +28,14 @@ body {
 }
 `
 
+const renderLoader = () => <p>Loading...</p>
+
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
-    <Provider store={store}>
+    <Suspense fallback={renderLoader()}>
       <App />
-    </Provider>
+    </Suspense>
   </React.StrictMode>,
   document.getElementById('root')
-);
+)

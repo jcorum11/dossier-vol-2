@@ -1,11 +1,13 @@
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Nav from "./components/Nav";
-import Projects from "./pages/Projects";
-import Resume from "./pages/Resume";
+import { lazy } from 'react'
 import styled from 'styled-components';
-import Landing from './pages/Landing'
 import { pink, blue } from './variables'
+
+const About = lazy(() => import('./pages/About'))
+const Contact = lazy(() => import('./pages/Contact'))
+const Projects = lazy(() => import('./pages/Projects'))
+const Resume = lazy(() => import('./pages/Resume'))
+const Nav = lazy(() => import('./components/Nav'))
+const Landing = lazy(() => import('./pages/Landing'))
 
 function App() {
   return (

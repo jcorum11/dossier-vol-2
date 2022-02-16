@@ -1,9 +1,11 @@
 import styled from 'styled-components'
-import SectionTitle from '../../components/SectionTitle'
-import backgroundImage from './assets/sumaid-pal-singh-bakshi-YZS1ATCDifw-unsplash.jpg'
+import backgroundImage from './assets/sumaid-pal-singh-bakshi-YZS1ATCDifw-unsplash.webp'
 import { pink, green } from '../../variables'
-import resumeImage from './assets/jacob-corum-resume-oct-2020.png'
+import resumeImage from './assets/jacob-corum-resume-oct-2020.webp'
 import resumePdf from './assets/jacob-corum-resume-oct-2020.pdf'
+import { lazy } from 'react'
+
+const SectionTitle = lazy(() => import('../../components/SectionTitle'))
 
 const Resume = () => {
   return (

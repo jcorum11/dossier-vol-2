@@ -1,9 +1,10 @@
-import { Fragment } from 'react'
+import { Fragment, lazy } from 'react'
 import styled from 'styled-components'
 import { colors } from '../../variables'
-import firstImage from './assets/IMG_1011.jpeg'
-import secondImage from './assets/IMG_3175.jpeg'
-import SectionTitle from '../../components/SectionTitle'
+import firstImage from './assets/IMG_1011.webp'
+import secondImage from './assets/IMG_3175.webp'
+
+const SectionTitle = lazy(() => import('../../components/SectionTitle'))
 
 const About = () => {
   const mobileFormat = window.innerWidth <= 768 ? true : false

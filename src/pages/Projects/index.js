@@ -1,9 +1,11 @@
-import SectionTitle from '../../components/SectionTitle'
-import Project from '../../components/Project'
-import dndImage from './assets/zoe-d3Rxton7VRY-unsplash.jpg'
-import rolodeckImage from './assets/hans-isaacson-ZUdwwp6r0zs-unsplash.jpg'
-import harpoonImage from './assets/nitish-goswami-P12cbv1z8tI-unsplash.jpg'
-import splootsImage from './assets/mick-haupt-OQrZQ80eNM4-unsplash.jpg'
+import { lazy } from 'react'
+import dndImage from './assets/zoe-d3Rxton7VRY-unsplash.webp'
+import rolodeckImage from './assets/hans-isaacson-ZUdwwp6r0zs-unsplash.webp'
+import harpoonImage from './assets/nitish-goswami-P12cbv1z8tI-unsplash.webp'
+import splootsImage from './assets/mick-haupt-OQrZQ80eNM4-unsplash.webp'
+
+const Project = lazy(() => import('../../components/Project'))
+const SectionTitle = lazy(() => import('../../components/SectionTitle'))
 
 function Projects() {
   const projectDetails = {

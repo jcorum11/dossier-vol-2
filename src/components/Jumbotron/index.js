@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import backgroundImage from './assets/solen-feyissa-rK2bkFf6KJ8-unsplash.jpg'
-import nameImage from './assets/Untitled_Artwork.png'
+import backgroundImage from './assets/solen-feyissa-rK2bkFf6KJ8-unsplash.webp'
+import nameImage from './assets/Untitled_Artwork.webp'
 
 function Jumbotron() {
   return (

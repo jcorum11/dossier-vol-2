@@ -1,4 +1,4 @@
-import React from "react"
+import { Suspense } from "react"
 import { render, cleanup } from "@testing-library/react"
 import "@testing-library/jest-dom/extend-expect"
 import Resume from ".."
@@ -6,7 +6,11 @@ import Resume from ".."
 afterEach(cleanup)
 
 it("renders", async () => {
-  render(<Resume />)
+  render(
+  <Suspense fallback={<div>Loading...</div>}>
+    <Resume />
+  </Suspense>
+  )
 })
 
 it("matches snapshot", async () => {
