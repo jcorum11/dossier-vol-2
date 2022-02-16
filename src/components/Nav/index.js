@@ -65,6 +65,7 @@ position: relative;
 z-index: 1;
 height: 11rem;
 overflow: hidden;
+scroll-snap-align: start;
 @media screen and (max-width: 768px) {
   display: block;
   ${props => !props.slideDown ? 'height: 5rem;' : 'height: 22.5rem;'}

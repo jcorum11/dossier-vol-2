@@ -7,7 +7,7 @@ const SectionTitle = lazy(() => import('../../components/SectionTitle'))
 
 const Contact = () => {
   return (
-    <section id='contact'>
+    <Section id='contact'>
       <SectionTitle name='contact' />
       <Container>
         <SocialContainer>
@@ -27,7 +27,7 @@ const Contact = () => {
           <PhoneNumber href='tel: 801-814-3191'>801-814-3191</PhoneNumber>
         </InfoContainer>
       </Container>
-    </section>
+    </Section>
   )
 }
 
@@ -120,6 +120,10 @@ display: flex;
 
 const Link = styled.a`
 text-decoration: none;
+`
+
+const Section = styled.section`
+scroll-snap-align: start;
 `
 
 export default Contact

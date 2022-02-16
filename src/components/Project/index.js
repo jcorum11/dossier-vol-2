@@ -97,6 +97,7 @@ text-align: center;
 `
 
 const Spacer = styled.div`
+scroll-snap-align: start;
 height: 10rem;
 background-color: ${colors.blue};
 @media screen and (max-width: 768px) {
