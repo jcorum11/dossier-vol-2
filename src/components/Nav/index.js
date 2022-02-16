@@ -1,9 +1,10 @@
 import { useState, lazy } from 'react'
 import styled, { keyframes, css } from 'styled-components'
 import { colors } from '../../variables'
+import { FaTimes } from 'react-icons/fa'
 
 const IoMenu = lazy(() => import('react-icons/io5').then(module => ({ default: module.IoMenu })))
-const FaTimes = lazy(() => import('react-icons/fa').then(module => ({ default: module.FaTimes })))
+// const FaTimes = lazy(() => import('react-icons/fa').then(module => ({ default: module.FaTimes })))
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(undefined)
