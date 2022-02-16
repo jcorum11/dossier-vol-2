@@ -3,14 +3,14 @@
 exports[`matches snapshot 1`] = `
 <DocumentFragment>
   <section
-    class="sc-bdvvtL guABpC"
+    class="sc-bdvvtL czzvcN"
     id="about"
   >
     <div
       class="sc-gsDKAQ kAhAI"
     >
       <h1
-        class="sc-pVTFL jVErxx"
+        class="sc-pVTFL mzRsC"
         data-testid="about"
       >
         ABOUT

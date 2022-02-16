@@ -26,6 +26,10 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
+
+html {
+  scroll-snap-type: y proximity;
+}
 `
 
 const renderLoader = () => <p>Loading...</p>

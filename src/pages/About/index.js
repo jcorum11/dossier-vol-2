@@ -62,6 +62,7 @@ const About = () => {
 const Section = styled.section`
 grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(2, auto);
+scroll-snap-align: start;
 `
 
 const Container = styled.div`

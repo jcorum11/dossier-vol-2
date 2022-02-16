@@ -14,6 +14,7 @@ font-size: 10rem;
 color: ${colors.pink};
 background-color: ${colors.blue};
 letter-spacing: 1rem;
+scroll-snap-align: start;
 @media screen and (max-width: 786px) {
   font-size: 2rem;
 }

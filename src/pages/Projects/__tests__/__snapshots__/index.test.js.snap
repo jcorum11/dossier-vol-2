@@ -7,7 +7,7 @@ exports[`matches snapshot 1`] = `
     id="projects"
   >
     <h1
-      class="sc-bdvvtL diZiHH"
+      class="sc-bdvvtL gyOVtM"
       data-testid="projects"
     >
       PROJECTS
@@ -34,7 +34,7 @@ exports[`matches snapshot 1`] = `
         </a>
       </div>
       <div
-        class="sc-jRQBWg fHbzbp"
+        class="sc-jRQBWg hKsRgS"
       />
       <div
         class="sc-gsDKAQ iedAaZ"
@@ -57,7 +57,7 @@ exports[`matches snapshot 1`] = `
         </a>
       </div>
       <div
-        class="sc-jRQBWg fHbzbp"
+        class="sc-jRQBWg hKsRgS"
       />
       <div
         class="sc-gsDKAQ fxrHQR"
@@ -80,7 +80,7 @@ exports[`matches snapshot 1`] = `
         </a>
       </div>
       <div
-        class="sc-jRQBWg fHbzbp"
+        class="sc-jRQBWg hKsRgS"
       />
       <div
         class="sc-gsDKAQ klaJDX"
