@@ -1,4 +1,4 @@
-import { lazy } from 'react'
+import React, { lazy } from 'react'
 import styled from 'styled-components'
 import { green, pink } from '../../variables'
 import backgroundImage from './assets/david-dvoracek-mwnBGQhka18-unsplash.webp'

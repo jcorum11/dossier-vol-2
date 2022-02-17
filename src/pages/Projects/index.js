@@ -1,4 +1,4 @@
-import { lazy } from 'react'
+import React, { lazy } from 'react'
 import dndImage from './assets/zoe-d3Rxton7VRY-unsplash.webp'
 import rolodeckImage from './assets/susan-wilkinson-xxsPx6dwmmc-unsplash.webp'
 import harpoonImage from './assets/nitish-goswami-P12cbv1z8tI-unsplash.webp'

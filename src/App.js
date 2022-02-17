@@ -1,4 +1,4 @@
-import { lazy } from 'react'
+import React, { lazy } from 'react'
 import styled from 'styled-components'
 import { pink, blue } from './variables'
 
@@ -27,12 +27,12 @@ function App() {
         </FooterContent>
       </footer>
     </Container>
-  );
+  )
 }
 
 const Container = styled.div`
 min-height: 100vh;
-width: 100vw
+width: 100vw;
 `
 
 const FooterContent = styled.div`
@@ -46,4 +46,4 @@ const Paragraph = styled.p`
 margin: 0;
 `
 
-export default App;
+export default App

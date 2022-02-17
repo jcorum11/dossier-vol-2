@@ -1,4 +1,4 @@
-import { Fragment, lazy } from 'react'
+import React, { Fragment, lazy } from 'react'
 
 const Jumbotron = lazy(() => import('../../components/Jumbotron'))
 
