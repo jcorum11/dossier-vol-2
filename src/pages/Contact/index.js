@@ -1,7 +1,7 @@
 import { lazy } from 'react'
 import styled from 'styled-components'
 import { green, pink } from '../../variables'
-import backgroundImage from './assets/david-dvoracek-mwnBGQhka18-unsplash.jpg'
+import backgroundImage from './assets/david-dvoracek-mwnBGQhka18-unsplash.webp'
 
 const SectionTitle = lazy(() => import('../../components/SectionTitle'))
 
@@ -12,7 +12,7 @@ const Contact = () => {
       <Container>
         <SocialContainer>
           <LinkContainer>
-            <Link href="href='https://www.linkedin.com/in/jacob-corum-full-stack-development/'">
+            <Link href="https://www.linkedin.com/in/jacob-corum-full-stack-development/">
               <SocialText>LinkedIn</SocialText>
             </Link>
           </LinkContainer>
@@ -44,6 +44,16 @@ color: ${green};
   top: -0.5rem;
   text-shadow: 0 0.5rem ${pink}
 }
+@media screen and (max-width: 768px) {
+  &:hover {
+    top: 0;
+    text-shadow: none;
+  }
+  &:active {
+    top: 0;
+    text-shadow: none;
+  }
+}
 `
 
 const Email = styled(InfoText)`
@@ -71,6 +81,9 @@ align-items: center;
   background-size: cover;
   background-position: center;
   filter: grayscale(100%);
+}
+@media screen and (max-width: 768px) {
+  height: 85vh;
 }
 `
 
@@ -100,6 +113,16 @@ text-decoration: none;
 &:active {
   top: -0.5rem;
   box-shadow: 0 0.5rem ${green};
+}
+@media screen and (max-width: 768px) {
+  &:hover {
+    top: 0;
+    box-shadow: none;
+  }
+  &:active {
+    top: 0;
+    box-shadow: none;
+  }
 }
 `
 

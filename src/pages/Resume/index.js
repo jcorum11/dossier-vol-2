@@ -44,7 +44,7 @@ grid-template-columns: 50vw 50vw;
 }
 @media screen and (max-width: 768px) {
   display: block;
-  height: 90vh;
+  height: 96vh;
 }
 @media screen and (min-width: 1024px) and (max-width: 1439) {
   height: 75vh;
@@ -107,7 +107,15 @@ background-position: center;
 }
 @media screen and (max-width: 768px) {
   background-position: top;
-  height: 20vh;
+  height: 50vh;
+  &:hover {
+    top: 0;
+    box-shadow: none;
+  }
+  &:active {
+    top: 0;
+    box-shadow: none;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   height: 55vh;
@@ -134,6 +142,14 @@ position: relative;
 @media screen and (max-width: 768px) {
   font-size: 2rem;
   line-height: 6rem;
+  &:hover {
+    top: 0;
+    text-shadow: none;
+  }
+  &:active {
+    top: 0;
+    text-shadow: none;
+  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   font-size: 4rem;

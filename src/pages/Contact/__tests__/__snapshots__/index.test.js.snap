@@ -13,17 +13,17 @@ exports[`matches snapshot 1`] = `
       CONTACT
     </h1>
     <section
-      class="sc-hKwDye eFSImg"
+      class="sc-hKwDye gyfWzi"
     >
       <div
         class="sc-iCfMLu dwrGUX"
       >
         <div
-          class="sc-jRQBWg ecueAo"
+          class="sc-jRQBWg hVxXUe"
         >
           <a
             class="sc-furwcr jhtxSd"
-            href="href='https://www.linkedin.com/in/jacob-corum-full-stack-development/'"
+            href="https://www.linkedin.com/in/jacob-corum-full-stack-development/"
           >
             <p
               class="sc-gKclnd eSksjy"
@@ -33,7 +33,7 @@ exports[`matches snapshot 1`] = `
           </a>
         </div>
         <div
-          class="sc-jRQBWg ecueAo"
+          class="sc-jRQBWg hVxXUe"
         >
           <a
             class="sc-furwcr jhtxSd"
@@ -51,13 +51,13 @@ exports[`matches snapshot 1`] = `
         class="sc-eCImPb iBmshn"
       >
         <a
-          class="sc-bdvvtL sc-gsDKAQ lcZqRM YHamg"
+          class="sc-bdvvtL sc-gsDKAQ bPkway YHamg"
           href="mailto: jacob.w.corum@gmail.com"
         >
           jacob.w.corum@gmail.com
         </a>
         <a
-          class="sc-bdvvtL sc-dkPtRN lcZqRM iIDBAs"
+          class="sc-bdvvtL sc-dkPtRN bPkway iIDBAs"
           href="tel: 801-814-3191"
         >
           801-814-3191
