@@ -122,6 +122,14 @@ position: relative;
 }
 @media screen and (max-width: 768px) {
   font-size: 5rem;
+  &:hover {
+    top: 0;
+    filter: none;
+  }
+  &:active {
+    top: 0;
+    filter: none;
+  }
 }
 `
 
@@ -141,6 +149,14 @@ position: relative;
 @media screen and (max-width: 768px) {
   font-size: 5rem;
 }
+&:hover {
+    top: 0;
+    filter: none;
+  }
+  &:active {
+    top: 0;
+    filter: none;
+  }
 `
 
 const Container = styled.div`
