@@ -1,4 +1,4 @@
-import { useState, lazy } from 'react'
+import React, { useState, lazy } from 'react'
 import styled, { keyframes, css } from 'styled-components'
 import { colors } from '../../variables'
 import { FaTimes } from 'react-icons/fa'

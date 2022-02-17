@@ -3,7 +3,7 @@
 exports[`matches snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bdvvtL hYYfyG"
+    class="sc-bdvvtL ipKyhW"
   >
     <h1
       class="sc-gsDKAQ blDjir"
@@ -16,7 +16,7 @@ exports[`matches snapshot 1`] = `
       This was a really cool tracker that I did during bootcamp. Check it out!
     </p>
     <a
-      class="sc-dkPtRN emkQry"
+      class="sc-dkPtRN ePzFfY"
       href="https://johnnielsen1221.github.io/dd-initiative-tracker/"
     >
       link

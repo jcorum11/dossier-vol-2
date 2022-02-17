@@ -1,5 +1,7 @@
+import React from 'react'
 import styled from 'styled-components'
 import { colors } from '../../variables'
+import { string } from 'prop-types'
 
 const SectionTitle = ({ name = '' }) => {
   return (
@@ -19,5 +21,9 @@ scroll-snap-align: start;
   font-size: 2rem;
 }
 `
+
+SectionTitle.propTypes = {
+  name: string
+}
 
 export default SectionTitle

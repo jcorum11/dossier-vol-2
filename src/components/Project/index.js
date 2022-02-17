@@ -1,6 +1,8 @@
+import React from 'react'
 import styled from 'styled-components'
 import { colors } from '../../variables'
 import { Fragment } from 'react'
+import { string, bool, objectOf } from 'prop-types'
 
 const Project = ({ projectDetails, first = false }) => {
   return (
@@ -15,6 +17,11 @@ const Project = ({ projectDetails, first = false }) => {
   )
 }
 
+Project.propTypes = {
+  projectDetails: objectOf(string),
+  first: bool
+}
+
 const ProjectContainer = styled.div`
 width: 100vw;
 height: 75vh;
@@ -23,6 +30,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+scroll-snap-align: start;
 &::before {
   content: '';
   width: 100%;
@@ -32,6 +40,9 @@ align-items: center;
   background-position: center;
   position: absolute;
   filter: grayscale(100%);
+}
+@media screen and (max-width: 768px) {
+  height: 100vh;
 }
 `
 
@@ -75,6 +86,14 @@ cursor: pointer;
 }
 @media screen and (max-width: 768px), (min-width: 1020px) and (max-width: 1440px) {
   top: 0;
+  &:hover {
+    top:0;
+    box-shadow: none;
+  }
+  &:active {
+    top:0;
+    box-shadow: none;
+  }
 }
 `
 
@@ -97,7 +116,6 @@ text-align: center;
 `
 
 const Spacer = styled.div`
-scroll-snap-align: start;
 height: 10rem;
 background-color: ${colors.blue};
 @media screen and (max-width: 768px) {

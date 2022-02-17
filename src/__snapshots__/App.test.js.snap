@@ -3,7 +3,7 @@
 exports[`matches snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bdvvtL ewLFSZ"
+    class="sc-bdvvtL fzhZSO"
     style="display: none;"
   >
     <nav
@@ -106,7 +106,7 @@ exports[`matches snapshot 1`] = `
         id="resume"
       >
         <section
-          class="sc-fotOHu hRWjbf"
+          class="sc-fotOHu hHpDht"
         >
           <div
             class="sc-bkkeKt fSnNen"
@@ -125,11 +125,11 @@ exports[`matches snapshot 1`] = `
               href="jacob-corum-resume-oct-2020.pdf"
             >
               <div
-                class="sc-dJjYzT jSpXhQ"
+                class="sc-dJjYzT kVovYt"
               />
             </a>
             <a
-              class="sc-hGPBjI fhbPZP"
+              class="sc-hGPBjI bgSlLl"
               download="jake-corums-resume"
               href="jacob-corum-resume-oct-2020.pdf"
             >
@@ -143,17 +143,17 @@ exports[`matches snapshot 1`] = `
         id="contact"
       >
         <section
-          class="sc-iwjdpV lcRVHO"
+          class="sc-iwjdpV kjzRbI"
         >
           <div
             class="sc-giYglK fsAClQ"
           >
             <div
-              class="sc-llYSUQ bLLUyJ"
+              class="sc-llYSUQ hHeThD"
             >
               <a
                 class="sc-ezbkAF jvdZVz"
-                href="href='https://www.linkedin.com/in/jacob-corum-full-stack-development/'"
+                href="https://www.linkedin.com/in/jacob-corum-full-stack-development/"
               >
                 <p
                   class="sc-iJKOTD dIsZes"
@@ -163,7 +163,7 @@ exports[`matches snapshot 1`] = `
               </a>
             </div>
             <div
-              class="sc-llYSUQ bLLUyJ"
+              class="sc-llYSUQ hHeThD"
             >
               <a
                 class="sc-ezbkAF jvdZVz"
@@ -181,13 +181,13 @@ exports[`matches snapshot 1`] = `
             class="sc-cxpSdN JUJVF"
           >
             <a
-              class="sc-kfPuZi sc-fKVqWL skVYV bmweRq"
+              class="sc-kfPuZi sc-fKVqWL gUqGa-D bmweRq"
               href="mailto: jacob.w.corum@gmail.com"
             >
               jacob.w.corum@gmail.com
             </a>
             <a
-              class="sc-kfPuZi sc-bBHxTw skVYV eFkXRc"
+              class="sc-kfPuZi sc-bBHxTw gUqGa-D eFkXRc"
               href="tel: 801-814-3191"
             >
               801-814-3191

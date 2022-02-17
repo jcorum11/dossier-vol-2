@@ -1,4 +1,4 @@
-import { Fragment, lazy } from 'react'
+import React, { Fragment, lazy } from 'react'
 import styled from 'styled-components'
 import { colors } from '../../variables'
 import firstImage from './assets/IMG_1011.webp'
