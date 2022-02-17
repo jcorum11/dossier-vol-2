@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { colors } from '../../variables'
 import { Fragment } from 'react'
+import { string, bool, objectOf } from 'prop-types'
 
 const Project = ({ projectDetails, first = false }) => {
   return (
@@ -14,6 +15,11 @@ const Project = ({ projectDetails, first = false }) => {
       </ProjectContainer>
     </Fragment>
   )
+}
+
+Project.propTypes = {
+  projectDetails: objectOf(string),
+  first: bool
 }
 
 const ProjectContainer = styled.div`
