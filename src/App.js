@@ -1,5 +1,5 @@
 import { lazy } from 'react'
-import styled from 'styled-components';
+import styled from 'styled-components'
 import { pink, blue } from './variables'
 
 const About = lazy(() => import('./pages/About'))
